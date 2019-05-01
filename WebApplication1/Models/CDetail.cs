@@ -19,6 +19,12 @@ namespace EmployeeService.Models
 
         public string make { get; set; }
         
+        public string Cpu { get; set; }
+
+        public string DvdType { get; set; }
+
+        public string Ram { get; set; }
+
         //navigational property
         public CLoan CLoan { get; set; }
 
