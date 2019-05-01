@@ -27,17 +27,21 @@ namespace EmployeeService.Controllers
 
             //this code will return the details from the computerdetail table
 
-            var data = (from d in _db.CDetails
+            var data = (from d in _db.CLoans
                         join
-                        f in _db.CLoans
-                        on d.Id equals f.CDetailId
+                        f in _db.CDetails
+                        on d.CDetailId equals f.Id
                         select new
                         {
-                            LogBook = d.Lb_no,
-                            ItemMake = d.make,
-                            SerialNo = d.sl_no,
-                            loanHolder = f.serNo
+                            LogBook = f.Lb_no,
+                            ItemMake = f.make,
+                            SerialNo = f.sl_no,
+                            CpuType = f.Cpu,
+                            Player = f.DvdType,
+                            RamConfig = f.Ram,
+                            loanHolder = d.serNo
                         }
+                        
 
 
                         ).ToList();
