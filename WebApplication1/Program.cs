@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using EmployeeService.infrastructure;
+using Serilog;
 
 namespace WebApplication1
 {
@@ -24,12 +25,14 @@ namespace WebApplication1
              var config = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false,reloadOnChange:true)
+            
             .AddCommandLine(args)
             .Build();
             
 
             return WebHost.CreateDefaultBuilder(args)
                    .UseConfiguration(config)
+                   .UseSerilog()
                    .UseStartup<Startup>()
                    .Build();
                    
