@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeService.infrastructure;
 using EmployeeService.Models;
+using System.Net;
 
 namespace EmployeeService.Controllers
 {
@@ -55,7 +56,7 @@ namespace EmployeeService.Controllers
 
         [Route("create")]
         [HttpPost]
-        public ActionResult Post(CDetail CDetailRec)
+        public ActionResult Post([FromBody]CDetail CDetailRec)
         {
             try
             {

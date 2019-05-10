@@ -33,23 +33,25 @@ namespace WebApplication1.Controllers
             //return new string[] { "value1", "value2" };
             //this code will return the details from the computerdetail table
 
-            var data = (from d in _db.CDetails
-                        join
-                        f in _db.CLoans
-                        on d.Id equals f.CDetailId
-                        select new
-                        {
-                            LogBook = d.Lb_no,
-                            ItemMake = d.make,
-                            SerialNo = d.sl_no,
-                            loanHolder = f.serNo
-                        } 
-                        
-                        
-                        ).ToList();
+            //var data = (from d in _db.CDetails
+            //            join
+            //            f in _db.CLoans
+            //            on d.Id equals f.CDetailId
+            //            select new
+            //            {
+            //                LogBook = d.Lb_no,
+            //                ItemMake = d.make,
+            //                SerialNo = d.sl_no,
+            //                loanHolder = f.serNo
+            //            } 
 
 
-            return Ok(data);
+            //            ).ToList();
+
+
+            //return Ok(data);
+
+            throw new Exception("Test exception");
 
             
         }
@@ -71,8 +73,8 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Post([FromBody]CDetail CDetailRec )
         {
-            try
-            {
+            
+            
                 var cdetail = new CDetail
                 {
                     Id = CDetailRec.Id,
@@ -106,10 +108,7 @@ namespace WebApplication1.Controllers
                   */             
 
 
-            }catch(Exception ex)
-            {
-                return BadRequest(ex.Message+"Inner"+ex.InnerException);
-            }
+            
 
             return Ok("Saved");
         }
