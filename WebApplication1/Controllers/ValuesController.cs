@@ -8,11 +8,9 @@ using System.Net;
 using System.Net.Http;
 using EmployeeService.Models;
 using EmployeeService.infrastructure;
-using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication1.Controllers
 {
-   [Authorize]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
