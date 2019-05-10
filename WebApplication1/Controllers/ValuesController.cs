@@ -33,27 +33,27 @@ namespace WebApplication1.Controllers
             //return new string[] { "value1", "value2" };
             //this code will return the details from the computerdetail table
 
-            //var data = (from d in _db.CDetails
-            //            join
-            //            f in _db.CLoans
-            //            on d.Id equals f.CDetailId
-            //            select new
-            //            {
-            //                LogBook = d.Lb_no,
-            //                ItemMake = d.make,
-            //                SerialNo = d.sl_no,
-            //                loanHolder = f.serNo
-            //            } 
+            var data = (from d in _db.CDetails
+                        join
+                        f in _db.CLoans
+                        on d.Id equals f.CDetailId
+                        select new
+                        {
+                            LogBook = d.Lb_no,
+                            ItemMake = d.make,
+                            SerialNo = d.sl_no,
+                            loanHolder = f.serNo
+                        }
 
 
-            //            ).ToList();
+                        ).ToList();
 
 
-            //return Ok(data);
+            return Ok(data);
 
-            throw new Exception("Test exception");
+            // throw new Exception("Test exception");
 
-            
+
         }
 
 
