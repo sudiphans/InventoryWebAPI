@@ -1,0 +1,2027 @@
+2019-05-11 13:21:13.281 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 13:21:14.748 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 13:21:14.874 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 13:21:15.202 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 13:21:15.653 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:21:15.721 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 13:21:15.793 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:21:15.957 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 13:21:16.096 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 13:21:16.404 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 13:21:16.424 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 13:21:17.673 +05:30 [Information] Data Logging started .
+2019-05-11 13:21:20.607 +05:30 [Debug] Hosting starting
+2019-05-11 13:21:21.507 +05:30 [Debug] Hosting started
+2019-05-11 13:21:21.511 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 13:21:21.511 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 13:21:21.512 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 13:21:21.711 +05:30 [Debug] Connection id ""0HLMLSLQOTPCU"" started.
+2019-05-11 13:21:21.711 +05:30 [Debug] Connection id ""0HLMLSLQOTPCV"" started.
+2019-05-11 13:21:22.561 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 13:21:22.561 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 13:21:22.927 +05:30 [Debug] Connection id ""0HLMLSLQOTPCU"" completed keep alive response.
+2019-05-11 13:21:22.937 +05:30 [Information] Request finished in 460.002ms 200 
+2019-05-11 13:21:24.054 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:21:25.216 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 13:21:25.765 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 13:21:29.175 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 13:21:29.627 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 13:21:31.385 +05:30 [Information] 2019-05-11 13:21:31.384574 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:21:31.521 +05:30 [Information] 2019-05-11 13:21:31.521008 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:21:31.543 +05:30 [Information] 2019-05-11 13:21:31.543480 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:21:31.858 +05:30 [Information] 2019-05-11 13:21:31.858407 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:21:31.859 +05:30 [Information] 2019-05-11 13:21:31.859123 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:21:31.859 +05:30 [Information] 2019-05-11 13:21:31.859830 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:21:31.862 +05:30 [Information] 2019-05-11 13:21:31.862385 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:21:31.863 +05:30 [Information] 2019-05-11 13:21:31.863017 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:21:31.865 +05:30 [Information] 2019-05-11 13:21:31.863462 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:21:32.584 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/2 application/json 132
+2019-05-11 13:21:32.588 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:21:32.589 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{Id}"'.
+2019-05-11 13:21:32.742 +05:30 [Information] 2019-05-11 13:21:32.742010 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:21:32.742 +05:30 [Information] 2019-05-11 13:21:32.742648 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:21:32.743 +05:30 [Information] 2019-05-11 13:21:32.743016 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:21:32.875 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 13:21:33.252 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["2"]) - ModelState is Valid
+2019-05-11 13:22:04.675 +05:30 [Information] 2019-05-11 13:22:04.674862 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:22:04.675 +05:30 [Information] 2019-05-11 13:22:04.675551 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:22:04.675 +05:30 [Information] 2019-05-11 13:22:04.675842 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:22:04.689 +05:30 [Information] 2019-05-11 13:22:04.689741 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:22:04.690 +05:30 [Information] 2019-05-11 13:22:04.690336 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:22:04.690 +05:30 [Information] 2019-05-11 13:22:04.690761 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:22:04.691 +05:30 [Information] 2019-05-11 13:22:04.691868 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:22:04.692 +05:30 [Information] 2019-05-11 13:22:04.692300 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:22:04.692 +05:30 [Information] 2019-05-11 13:22:04.692780 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:22:05.367 +05:30 [Information] 2019-05-11 13:22:05.366686 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 13:22:06.812 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:22:06.816 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:22:31.164 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:22:31.184 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:22:31.603 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:22:31.603 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:22:32.786 +05:30 [Information] 2019-05-11 13:22:32.786041 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:22:32.788 +05:30 [Information] 2019-05-11 13:22:32.786041 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:22:33.026 +05:30 [Information] 2019-05-11 13:22:33.025906 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:22:33.043 +05:30 [Information] 2019-05-11 13:22:33.043200 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:22:33.092 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Id\" = :Id_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 13:22:33.092 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 13:22:47.119 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:22:47.119 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:21.618 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:21.658 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:21.688 +05:30 [Information] 2019-05-11 13:23:21.688021 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:23:21.689 +05:30 [Information] 2019-05-11 13:23:21.688021 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:23:21.690 +05:30 [Information] 2019-05-11 13:23:21.690180 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:23:21.690 +05:30 [Information] 2019-05-11 13:23:21.690749 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:23:21.857 +05:30 [Information] 2019-05-11 13:23:21.856866 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 13:23:21.912 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:23:21.942 +05:30 [Information] 2019-05-11 13:23:21.942578 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Id" = :Id_0
+2019-05-11 13:23:22.024 +05:30 [Debug] Executing DbCommand [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:23:23.282 +05:30 [Information] Executed DbCommand ("1,380"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:23:23.299 +05:30 [Information] 2019-05-11 13:23:23.298918 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:23:23.326 +05:30 [Information] Executed DbCommand ("1,383"ms) [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:23:23.329 +05:30 [Information] 2019-05-11 13:23:23.327228 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:23:23.566 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:23:23.592 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:23.732 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:23:23.733 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:23.828 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:23.833 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:23:24.010 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 13:23:53.474 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 13:23:53.494 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 13:23:53.498 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 13:23:53.501 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 13:23:53.502 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 13:23:53.549 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 13:23:53.603 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 0 entities written to the database.
+2019-05-11 13:27:14.356 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 13:27:15.011 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 13:27:15.123 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 13:27:15.261 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 13:27:15.379 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:27:15.412 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 13:27:15.426 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:27:15.498 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 13:27:15.574 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 13:27:15.678 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 13:27:15.699 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 13:27:16.231 +05:30 [Information] Data Logging started .
+2019-05-11 13:27:17.509 +05:30 [Debug] Hosting starting
+2019-05-11 13:27:18.180 +05:30 [Debug] Hosting started
+2019-05-11 13:27:18.186 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 13:27:18.188 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 13:27:18.189 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 13:27:18.247 +05:30 [Debug] Connection id ""0HLMLSP51GHUI"" started.
+2019-05-11 13:27:18.247 +05:30 [Debug] Connection id ""0HLMLSP51GHUH"" started.
+2019-05-11 13:27:18.962 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 13:27:18.955 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 13:27:19.279 +05:30 [Debug] Connection id ""0HLMLSP51GHUI"" completed keep alive response.
+2019-05-11 13:27:19.287 +05:30 [Information] Request finished in 415.7827ms 200 
+2019-05-11 13:27:20.374 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:27:21.618 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 13:27:22.480 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 13:27:25.566 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 13:27:25.876 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 13:27:27.499 +05:30 [Information] 2019-05-11 13:27:27.498051 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:27.632 +05:30 [Information] 2019-05-11 13:27:27.632231 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:27.686 +05:30 [Information] 2019-05-11 13:27:27.686646 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:27:27.986 +05:30 [Information] 2019-05-11 13:27:27.986710 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:27.987 +05:30 [Information] 2019-05-11 13:27:27.987470 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:27.988 +05:30 [Information] 2019-05-11 13:27:27.988365 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:27:27.991 +05:30 [Information] 2019-05-11 13:27:27.991423 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:27.992 +05:30 [Information] 2019-05-11 13:27:27.992110 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:27.993 +05:30 [Information] 2019-05-11 13:27:27.993361 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:27:28.806 +05:30 [Information] 2019-05-11 13:27:28.806799 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:28.807 +05:30 [Information] 2019-05-11 13:27:28.807741 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:28.808 +05:30 [Information] 2019-05-11 13:27:28.808483 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:27:31.171 +05:30 [Information] 2019-05-11 13:27:31.171082 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:31.172 +05:30 [Information] 2019-05-11 13:27:31.171911 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:31.172 +05:30 [Information] 2019-05-11 13:27:31.172434 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:27:31.191 +05:30 [Information] 2019-05-11 13:27:31.191697 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:31.193 +05:30 [Information] 2019-05-11 13:27:31.193814 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:31.194 +05:30 [Information] 2019-05-11 13:27:31.194879 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:27:31.199 +05:30 [Information] 2019-05-11 13:27:31.198874 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:27:31.199 +05:30 [Information] 2019-05-11 13:27:31.199498 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:27:31.200 +05:30 [Information] 2019-05-11 13:27:31.199923 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:27:31.798 +05:30 [Information] 2019-05-11 13:27:31.797997 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 13:27:32.951 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/2 application/json 132
+2019-05-11 13:27:32.954 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:27:32.957 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{Id}"'.
+2019-05-11 13:27:33.186 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 13:27:33.241 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:27:33.614 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["2"]) - ModelState is Valid
+2019-05-11 13:27:47.218 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:27:55.499 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:27:55.525 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:27:55.884 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:27:55.884 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:27:57.115 +05:30 [Information] 2019-05-11 13:27:57.115128 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:27:57.116 +05:30 [Information] 2019-05-11 13:27:57.115203 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:27:57.409 +05:30 [Information] 2019-05-11 13:27:57.409718 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:27:57.431 +05:30 [Information] 2019-05-11 13:27:57.430959 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:27:57.470 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Id\" = :Id_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 13:27:57.470 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 13:27:59.861 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:27:59.861 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:35.508 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:35.441 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:35.537 +05:30 [Information] 2019-05-11 13:28:35.536577 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:28:35.539 +05:30 [Information] 2019-05-11 13:28:35.538923 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:28:35.543 +05:30 [Information] 2019-05-11 13:28:35.536568 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:28:35.546 +05:30 [Information] 2019-05-11 13:28:35.546548 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:28:35.706 +05:30 [Information] 2019-05-11 13:28:35.706015 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 13:28:35.771 +05:30 [Information] 2019-05-11 13:28:35.771669 ThreadID:10  (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Id" = :Id_0
+2019-05-11 13:28:35.790 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:28:35.813 +05:30 [Debug] Executing DbCommand [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:28:36.906 +05:30 [Information] Executed DbCommand ("1,161"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:28:36.922 +05:30 [Information] Executed DbCommand ("1,150"ms) [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:28:36.926 +05:30 [Information] 2019-05-11 13:28:36.926484 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:28:36.929 +05:30 [Information] 2019-05-11 13:28:36.926590 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:28:37.186 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:28:37.238 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:37.348 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:28:37.351 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:37.482 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:37.482 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:28:37.593 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 13:28:47.022 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 13:28:47.027 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 13:28:47.031 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 13:28:47.032 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 13:28:47.078 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 13:28:47.097 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 13:28:47.144 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 0 entities written to the database.
+2019-05-11 13:30:17.057 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 13:30:17.780 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 13:30:17.870 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 13:30:18.055 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 13:30:18.162 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:30:18.188 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 13:30:18.200 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:30:18.271 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 13:30:18.356 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 13:30:18.502 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 13:30:18.520 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 13:30:19.072 +05:30 [Information] Data Logging started .
+2019-05-11 13:30:20.424 +05:30 [Debug] Hosting starting
+2019-05-11 13:30:21.101 +05:30 [Debug] Hosting started
+2019-05-11 13:30:21.104 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 13:30:21.105 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 13:30:21.105 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 13:30:21.210 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" started.
+2019-05-11 13:30:21.219 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"" started.
+2019-05-11 13:30:21.954 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 13:30:21.954 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 13:30:22.203 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" completed keep alive response.
+2019-05-11 13:30:22.244 +05:30 [Information] Request finished in 384.8065ms 200 
+2019-05-11 13:30:23.214 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:30:24.328 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 13:30:24.781 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 13:30:27.271 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 13:30:27.591 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 13:30:29.604 +05:30 [Information] 2019-05-11 13:30:29.604115 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:29.719 +05:30 [Information] 2019-05-11 13:30:29.719641 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:29.739 +05:30 [Information] 2019-05-11 13:30:29.739780 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:30:29.967 +05:30 [Information] 2019-05-11 13:30:29.966955 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:29.967 +05:30 [Information] 2019-05-11 13:30:29.967556 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:29.968 +05:30 [Information] 2019-05-11 13:30:29.968157 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:30:29.972 +05:30 [Information] 2019-05-11 13:30:29.972500 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:29.973 +05:30 [Information] 2019-05-11 13:30:29.973253 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:29.973 +05:30 [Information] 2019-05-11 13:30:29.973774 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:30:30.708 +05:30 [Information] 2019-05-11 13:30:30.708330 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:30.709 +05:30 [Information] 2019-05-11 13:30:30.709043 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:30.710 +05:30 [Information] 2019-05-11 13:30:30.709845 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:30:33.205 +05:30 [Information] 2019-05-11 13:30:33.205323 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:33.206 +05:30 [Information] 2019-05-11 13:30:33.206126 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:33.208 +05:30 [Information] 2019-05-11 13:30:33.208135 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:30:33.220 +05:30 [Information] 2019-05-11 13:30:33.220590 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:33.221 +05:30 [Information] 2019-05-11 13:30:33.221438 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:33.222 +05:30 [Information] 2019-05-11 13:30:33.221932 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:30:33.222 +05:30 [Information] 2019-05-11 13:30:33.222804 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:30:33.223 +05:30 [Information] 2019-05-11 13:30:33.223158 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:30:33.223 +05:30 [Information] 2019-05-11 13:30:33.223708 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:30:33.780 +05:30 [Information] 2019-05-11 13:30:33.779849 ThreadID:6   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 13:30:35.174 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:30:36.458 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:30:36.808 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:30:38.055 +05:30 [Information] 2019-05-11 13:30:38.055480 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:30:38.298 +05:30 [Information] 2019-05-11 13:30:38.297921 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:30:38.357 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 13:30:39.153 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:31:11.633 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:31:11.655 +05:30 [Information] 2019-05-11 13:31:11.654895 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:31:11.656 +05:30 [Information] 2019-05-11 13:31:11.656681 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:31:11.769 +05:30 [Information] 2019-05-11 13:31:11.768785 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 13:31:11.842 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:31:12.744 +05:30 [Information] Executed DbCommand ("948"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:31:12.758 +05:30 [Information] 2019-05-11 13:31:12.758061 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:31:13.191 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:31:13.213 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:31:13.434 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:31:13.437 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 13:45:38.832 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" received FIN.
+2019-05-11 13:45:38.834 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" disconnecting.
+2019-05-11 13:45:40.223 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" sending FIN.
+2019-05-11 13:45:40.260 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 13:45:40.264 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 13:45:40.265 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 13:45:40.305 +05:30 [Debug] Connection id ""0HLMLSQRI5KT6"" stopped.
+2019-05-11 13:45:41.750 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 916910.5113ms
+2019-05-11 13:45:41.780 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 13:45:41.819 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"" completed keep alive response.
+2019-05-11 13:45:41.820 +05:30 [Information] Request finished in 919975.9561ms 200 application/json; charset=utf-8
+2019-05-11 13:45:42.274 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/favicon.ico  
+2019-05-11 13:45:42.278 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:45:42.295 +05:30 [Debug] Request did not match any routes.
+2019-05-11 13:45:42.301 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"" completed keep alive response.
+2019-05-11 13:45:42.326 +05:30 [Information] Request finished in 50.6126ms 404 
+2019-05-11 13:45:51.006 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/2 application/json 132
+2019-05-11 13:45:51.008 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:45:51.009 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{Id}"'.
+2019-05-11 13:45:51.156 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 13:45:51.368 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["2"]) - ModelState is Valid
+2019-05-11 13:45:57.682 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:46:04.530 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:46:04.608 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 13:46:04.842 +05:30 [Information] 2019-05-11 13:46:04.842581 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:46:04.876 +05:30 [Information] 2019-05-11 13:46:04.876808 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:46:04.892 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Id\" = :Id_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 13:46:05.989 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:46:06.032 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:46:06.032 +05:30 [Information] 2019-05-11 13:46:06.032699 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:46:06.034 +05:30 [Information] 2019-05-11 13:46:06.034069 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:46:06.086 +05:30 [Information] 2019-05-11 13:46:06.086452 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Id" = :Id_0
+2019-05-11 13:46:06.115 +05:30 [Debug] Executing DbCommand [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:46:06.599 +05:30 [Information] Executed DbCommand ("513"ms) [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 13:46:06.600 +05:30 [Information] 2019-05-11 13:46:06.600398 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:46:06.608 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:46:06.609 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:46:06.610 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:46:11.781 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 13:46:11.796 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 13:46:11.809 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 13:46:11.844 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 0 entities written to the database.
+2019-05-11 13:46:16.487 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 13:46:19.248 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 13:46:19.250 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 13:46:19.251 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 13:46:19.258 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" in 28100.7291ms
+2019-05-11 13:46:19.259 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 13:46:19.260 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"" completed keep alive response.
+2019-05-11 13:46:19.285 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"", Request id ""0HLMLSQRI5KT7:00000003"": started reading request body.
+2019-05-11 13:46:19.296 +05:30 [Debug] Connection id ""0HLMLSQRI5KT7"", Request id ""0HLMLSQRI5KT7:00000003"": done reading request body.
+2019-05-11 13:46:19.297 +05:30 [Information] Request finished in 28291.3532ms 200 application/json; charset=utf-8
+2019-05-11 13:55:27.709 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 13:55:28.547 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 13:55:28.632 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 13:55:28.829 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 13:55:28.940 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:55:28.985 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 13:55:29.003 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 13:55:29.080 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 13:55:29.161 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 13:55:29.308 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 13:55:29.334 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 13:55:29.959 +05:30 [Information] Data Logging started .
+2019-05-11 13:55:31.669 +05:30 [Debug] Hosting starting
+2019-05-11 13:55:32.728 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" started.
+2019-05-11 13:55:32.762 +05:30 [Debug] Hosting started
+2019-05-11 13:55:32.765 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 13:55:32.766 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 13:55:32.766 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 13:55:32.993 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" started.
+2019-05-11 13:55:33.543 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 13:55:33.543 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 13:55:33.873 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" completed keep alive response.
+2019-05-11 13:55:33.893 +05:30 [Information] Request finished in 425.9029ms 200 
+2019-05-11 13:55:35.104 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 13:55:36.397 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 13:55:36.883 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 13:55:39.969 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 13:55:40.333 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 13:55:41.997 +05:30 [Information] 2019-05-11 13:55:41.996500 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:42.151 +05:30 [Information] 2019-05-11 13:55:42.151595 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:42.179 +05:30 [Information] 2019-05-11 13:55:42.179033 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:55:42.533 +05:30 [Information] 2019-05-11 13:55:42.533228 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:42.536 +05:30 [Information] 2019-05-11 13:55:42.536057 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:42.538 +05:30 [Information] 2019-05-11 13:55:42.536982 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:55:42.542 +05:30 [Information] 2019-05-11 13:55:42.542266 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:42.543 +05:30 [Information] 2019-05-11 13:55:42.542987 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:42.544 +05:30 [Information] 2019-05-11 13:55:42.544224 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:55:43.359 +05:30 [Information] 2019-05-11 13:55:43.359255 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:43.360 +05:30 [Information] 2019-05-11 13:55:43.359913 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:43.361 +05:30 [Information] 2019-05-11 13:55:43.360934 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 13:55:45.921 +05:30 [Information] 2019-05-11 13:55:45.921687 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:45.926 +05:30 [Information] 2019-05-11 13:55:45.926759 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:45.928 +05:30 [Information] 2019-05-11 13:55:45.928477 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:55:45.950 +05:30 [Information] 2019-05-11 13:55:45.950246 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:45.951 +05:30 [Information] 2019-05-11 13:55:45.950962 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:45.951 +05:30 [Information] 2019-05-11 13:55:45.951427 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 13:55:45.952 +05:30 [Information] 2019-05-11 13:55:45.952304 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 13:55:45.952 +05:30 [Information] 2019-05-11 13:55:45.952750 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 13:55:45.953 +05:30 [Information] 2019-05-11 13:55:45.953201 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 13:55:46.515 +05:30 [Information] 2019-05-11 13:55:46.515196 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 13:55:47.963 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 13:55:49.166 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:55:49.543 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 13:55:50.711 +05:30 [Information] 2019-05-11 13:55:50.711037 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:55:50.928 +05:30 [Information] 2019-05-11 13:55:50.928701 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:55:51.022 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 13:55:51.832 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:56:24.995 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:56:25.039 +05:30 [Information] 2019-05-11 13:56:25.039310 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:56:25.041 +05:30 [Information] 2019-05-11 13:56:25.041695 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 13:56:25.154 +05:30 [Information] 2019-05-11 13:56:25.154157 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 13:56:25.221 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:56:26.041 +05:30 [Information] Executed DbCommand ("837"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 13:56:26.056 +05:30 [Information] 2019-05-11 13:56:26.056791 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 13:56:26.454 +05:30 [Debug] A data reader was disposed.
+2019-05-11 13:56:26.472 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:56:26.669 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 13:56:26.673 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 13:56:26.714 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 13:56:26.718 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 13:56:26.719 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 13:56:27.288 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 50346.7625ms
+2019-05-11 13:56:27.298 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 13:56:27.330 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" completed keep alive response.
+2019-05-11 13:56:27.331 +05:30 [Information] Request finished in 53878.3417ms 200 application/json; charset=utf-8
+2019-05-11 13:58:02.438 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" received FIN.
+2019-05-11 13:58:02.439 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" disconnecting.
+2019-05-11 13:58:02.442 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" received FIN.
+2019-05-11 13:58:02.442 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" disconnecting.
+2019-05-11 13:58:02.445 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" sending FIN.
+2019-05-11 13:58:02.461 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" sending FIN.
+2019-05-11 13:58:02.507 +05:30 [Debug] Connection id ""0HLMLT8TVISHD"" stopped.
+2019-05-11 13:58:02.507 +05:30 [Debug] Connection id ""0HLMLT8TVISHC"" stopped.
+2019-05-11 14:01:15.069 +05:30 [Debug] Connection id ""0HLMLT8TVISHE"" started.
+2019-05-11 14:01:15.075 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/1 application/json 132
+2019-05-11 14:01:15.078 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:01:15.080 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{Id}"'.
+2019-05-11 14:01:15.289 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 14:01:15.500 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["1"]) - ModelState is Valid
+2019-05-11 14:01:22.816 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:01:31.238 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 14:01:31.303 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Id == __Id_0
+select [d]"'
+2019-05-11 14:01:31.535 +05:30 [Information] 2019-05-11 14:01:31.535263 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:01:31.570 +05:30 [Information] 2019-05-11 14:01:31.570064 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:01:31.583 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Id\" = :Id_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 14:01:32.723 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:01:32.760 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:01:32.760 +05:30 [Information] 2019-05-11 14:01:32.760922 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:01:32.762 +05:30 [Information] 2019-05-11 14:01:32.762121 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:01:32.813 +05:30 [Information] 2019-05-11 14:01:32.813321 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Id" = :Id_0
+2019-05-11 14:01:32.842 +05:30 [Debug] Executing DbCommand [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 14:01:33.289 +05:30 [Information] Executed DbCommand ("475"ms) [Parameters=[":Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Id\" = :Id_0"
+2019-05-11 14:01:33.289 +05:30 [Information] 2019-05-11 14:01:33.289805 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:01:33.298 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:01:33.299 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:01:33.300 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:01:36.904 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 14:01:36.921 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 14:01:36.936 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 14:01:36.983 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 0 entities written to the database.
+2019-05-11 14:09:46.591 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 14:09:47.380 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 14:09:47.478 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 14:09:47.657 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 14:09:47.812 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 14:09:47.854 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 14:09:47.893 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 14:09:47.976 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 14:09:48.035 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 14:09:48.159 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 14:09:48.177 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 14:09:48.838 +05:30 [Information] Data Logging started .
+2019-05-11 14:09:50.525 +05:30 [Debug] Hosting starting
+2019-05-11 14:09:51.222 +05:30 [Debug] Hosting started
+2019-05-11 14:09:51.227 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 14:09:51.228 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 14:09:51.229 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 14:09:51.292 +05:30 [Debug] Connection id ""0HLMLTGTT4LS2"" started.
+2019-05-11 14:09:51.292 +05:30 [Debug] Connection id ""0HLMLTGTT4LS1"" started.
+2019-05-11 14:09:51.536 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" started.
+2019-05-11 14:09:52.022 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 14:09:52.022 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 14:09:52.022 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/1 application/json 132
+2019-05-11 14:09:52.355 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" completed keep alive response.
+2019-05-11 14:09:52.365 +05:30 [Information] Request finished in 423.1723ms 200 
+2019-05-11 14:09:53.431 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:09:53.449 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:09:54.419 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{LbNo}"'.
+2019-05-11 14:09:54.419 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 14:09:55.115 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 14:09:55.130 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 14:09:57.847 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 14:09:57.850 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 14:09:58.166 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 14:09:58.558 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["1"]) - ModelState is Valid
+2019-05-11 14:10:11.401 +05:30 [Information] 2019-05-11 14:10:11.400704 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:11.526 +05:30 [Information] 2019-05-11 14:10:11.526200 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:11.547 +05:30 [Information] 2019-05-11 14:10:11.546863 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:10:11.775 +05:30 [Information] 2019-05-11 14:10:11.775052 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:11.775 +05:30 [Information] 2019-05-11 14:10:11.775668 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:11.776 +05:30 [Information] 2019-05-11 14:10:11.776250 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 14:10:11.778 +05:30 [Information] 2019-05-11 14:10:11.778749 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:11.779 +05:30 [Information] 2019-05-11 14:10:11.779230 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:11.779 +05:30 [Information] 2019-05-11 14:10:11.779621 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 14:10:12.586 +05:30 [Information] 2019-05-11 14:10:12.585884 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:12.586 +05:30 [Information] 2019-05-11 14:10:12.586776 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:12.587 +05:30 [Information] 2019-05-11 14:10:12.587220 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 14:10:15.183 +05:30 [Information] 2019-05-11 14:10:15.183002 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:15.183 +05:30 [Information] 2019-05-11 14:10:15.183665 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:15.184 +05:30 [Information] 2019-05-11 14:10:15.184156 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:10:15.202 +05:30 [Information] 2019-05-11 14:10:15.202508 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:15.203 +05:30 [Information] 2019-05-11 14:10:15.203523 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:15.204 +05:30 [Information] 2019-05-11 14:10:15.204364 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 14:10:15.205 +05:30 [Information] 2019-05-11 14:10:15.205200 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:10:15.205 +05:30 [Information] 2019-05-11 14:10:15.205619 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:10:15.206 +05:30 [Information] 2019-05-11 14:10:15.206021 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:10:15.720 +05:30 [Information] 2019-05-11 14:10:15.720118 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 14:10:17.173 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:10:17.173 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:10:31.597 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Lb_no == __LbNo_0
+select [d]"'
+2019-05-11 14:10:31.636 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 14:10:31.960 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Lb_no == __LbNo_0
+select [d]"'
+2019-05-11 14:10:31.961 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 14:10:33.141 +05:30 [Information] 2019-05-11 14:10:33.141407 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:10:33.143 +05:30 [Information] 2019-05-11 14:10:33.141403 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:10:33.390 +05:30 [Information] 2019-05-11 14:10:33.389958 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:10:33.400 +05:30 [Information] 2019-05-11 14:10:33.400562 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:10:33.447 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 14:10:33.447 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Lb_no\" = :LbNo_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 14:10:36.058 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:10:36.058 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:10:52.438 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" received FIN.
+2019-05-11 14:10:52.439 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" disconnecting.
+2019-05-11 14:10:52.443 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" sending FIN.
+2019-05-11 14:10:52.465 +05:30 [Debug] Connection id ""0HLMLTGTT4LS3"" stopped.
+2019-05-11 14:11:07.917 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:11:07.944 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:11:07.965 +05:30 [Information] 2019-05-11 14:11:07.964661 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:11:07.966 +05:30 [Information] 2019-05-11 14:11:07.964661 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:11:07.967 +05:30 [Information] 2019-05-11 14:11:07.966996 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:11:07.967 +05:30 [Information] 2019-05-11 14:11:07.967361 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:11:08.141 +05:30 [Information] 2019-05-11 14:11:08.141251 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 14:11:08.212 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 14:11:08.234 +05:30 [Information] 2019-05-11 14:11:08.234081 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:11:08.309 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:11:09.535 +05:30 [Information] Executed DbCommand ("1,297"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 14:11:09.552 +05:30 [Information] 2019-05-11 14:11:09.552121 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:11:09.580 +05:30 [Information] Executed DbCommand ("1,346"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:11:09.581 +05:30 [Information] 2019-05-11 14:11:09.581415 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:11:10.004 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:11:10.025 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:11:10.254 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:11:10.257 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:11:10.287 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:11:10.302 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:11:10.311 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:11:10.312 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:11:29.001 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:11:34.053 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:11:55.521 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:11:57.640 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:12:01.978 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:12:06.940 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:12:06.941 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:06.950 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:08.558 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 14:12:08.585 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 14:12:08.592 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 133440.8531ms
+2019-05-11 14:12:08.615 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:12:08.642 +05:30 [Debug] Connection id ""0HLMLTGTT4LS1"" completed keep alive response.
+2019-05-11 14:12:08.644 +05:30 [Information] Request finished in 136709.8042ms 200 application/json; charset=utf-8
+2019-05-11 14:12:09.111 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 14:12:09.371 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:09.476 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:09.513 +05:30 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+2019-05-11 14:12:10.126 +05:30 [Debug] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2019-05-11 14:12:10.421 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:10.871 +05:30 [Information] Executed DbCommand ("450"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:10.985 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:12:10.988 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:11.073 +05:30 [Information] Executed DbCommand ("85"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:11.075 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:12:11.077 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:11.100 +05:30 [Information] Executed DbCommand ("23"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:12:11.102 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:12:11.212 +05:30 [Debug] Committing transaction.
+2019-05-11 14:12:11.218 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:11.219 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:12:11.228 +05:30 [Debug] Disposing transaction.
+2019-05-11 14:12:11.276 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:12:11.280 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:12:11.282 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:12:11.311 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 3 entities written to the database.
+2019-05-11 14:12:17.800 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:12:20.039 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:12:20.041 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:12:20.042 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:12:20.047 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" in 144915.8909ms
+2019-05-11 14:12:20.049 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:12:20.050 +05:30 [Debug] Connection id ""0HLMLTGTT4LS2"" completed keep alive response.
+2019-05-11 14:12:20.064 +05:30 [Debug] Connection id ""0HLMLTGTT4LS2"", Request id ""0HLMLTGTT4LS2:00000001"": started reading request body.
+2019-05-11 14:12:20.076 +05:30 [Debug] Connection id ""0HLMLTGTT4LS2"", Request id ""0HLMLTGTT4LS2:00000001"": done reading request body.
+2019-05-11 14:12:20.077 +05:30 [Information] Request finished in 148144.1579ms 200 application/json; charset=utf-8
+2019-05-11 14:15:15.216 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-11 14:15:15.932 +05:30 [Debug] Reading data from file '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys\key-7f8ee026-00ae-45aa-87f4-d42ee235b679.xml"'.
+2019-05-11 14:15:16.055 +05:30 [Debug] Found key {7f8ee026-00ae-45aa-87f4-d42ee235b679}.
+2019-05-11 14:15:16.192 +05:30 [Debug] Considering key {7f8ee026-00ae-45aa-87f4-d42ee235b679} with expiration date 2019-07-12 10:33:36Z as default key.
+2019-05-11 14:15:16.313 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 14:15:16.343 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2019-05-11 14:15:16.357 +05:30 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-05-11 14:15:16.447 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-05-11 14:15:16.501 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-05-11 14:15:16.577 +05:30 [Debug] Using key {7f8ee026-00ae-45aa-87f4-d42ee235b679} as the default key.
+2019-05-11 14:15:16.595 +05:30 [Debug] Key ring with default key {7f8ee026-00ae-45aa-87f4-d42ee235b679} was loaded during application startup.
+2019-05-11 14:15:17.047 +05:30 [Information] Data Logging started .
+2019-05-11 14:15:18.268 +05:30 [Debug] Hosting starting
+2019-05-11 14:15:18.817 +05:30 [Debug] Hosting started
+2019-05-11 14:15:18.820 +05:30 [Debug] Loaded hosting startup assembly "EmployeeService"
+2019-05-11 14:15:18.820 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-05-11 14:15:18.821 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2019-05-11 14:15:18.976 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" started.
+2019-05-11 14:15:18.976 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" started.
+2019-05-11 14:15:19.223 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" started.
+2019-05-11 14:15:19.226 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"" started.
+2019-05-11 14:15:19.672 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/2 application/json 132
+2019-05-11 14:15:19.672 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-11 14:15:19.672 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-11 14:15:19.672 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/2 application/json 132
+2019-05-11 14:15:19.958 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" completed keep alive response.
+2019-05-11 14:15:19.998 +05:30 [Information] Request finished in 374.7868ms 200 
+2019-05-11 14:15:20.973 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:15:20.973 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:15:20.973 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:15:21.749 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{LbNo}"'.
+2019-05-11 14:15:21.749 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{LbNo}"'.
+2019-05-11 14:15:21.751 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2019-05-11 14:15:22.104 +05:30 [Debug] Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-11 14:15:22.128 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 14:15:22.128 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 14:15:24.083 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 14:15:24.084 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 14:15:24.085 +05:30 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2019-05-11 14:15:24.420 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 14:15:24.684 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["2"]) - ModelState is Valid
+2019-05-11 14:15:24.684 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["2"]) - ModelState is Valid
+2019-05-11 14:15:38.262 +05:30 [Information] 2019-05-11 14:15:38.261786 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:38.378 +05:30 [Information] 2019-05-11 14:15:38.378059 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:38.410 +05:30 [Information] 2019-05-11 14:15:38.409984 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:15:38.611 +05:30 [Information] 2019-05-11 14:15:38.611630 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:38.612 +05:30 [Information] 2019-05-11 14:15:38.612224 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:38.615 +05:30 [Information] 2019-05-11 14:15:38.614269 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 14:15:38.618 +05:30 [Information] 2019-05-11 14:15:38.618329 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:38.619 +05:30 [Information] 2019-05-11 14:15:38.618877 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:38.620 +05:30 [Information] 2019-05-11 14:15:38.620230 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 14:15:39.212 +05:30 [Information] 2019-05-11 14:15:39.212259 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:39.214 +05:30 [Information] 2019-05-11 14:15:39.214782 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:39.215 +05:30 [Information] 2019-05-11 14:15:39.215432 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-11 14:15:41.639 +05:30 [Information] 2019-05-11 14:15:41.639636 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:41.640 +05:30 [Information] 2019-05-11 14:15:41.640392 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:41.641 +05:30 [Information] 2019-05-11 14:15:41.641131 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:15:41.656 +05:30 [Information] 2019-05-11 14:15:41.656644 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:41.657 +05:30 [Information] 2019-05-11 14:15:41.657695 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:41.659 +05:30 [Information] 2019-05-11 14:15:41.659172 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-11 14:15:41.660 +05:30 [Information] 2019-05-11 14:15:41.660595 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-11 14:15:41.661 +05:30 [Information] 2019-05-11 14:15:41.661216 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-11 14:15:41.661 +05:30 [Information] 2019-05-11 14:15:41.661711 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-11 14:15:42.147 +05:30 [Information] 2019-05-11 14:15:42.146949 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.1-servicing-10028
+  Relational:MaxIdentifierLength: 128
+2019-05-11 14:15:43.309 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:15:43.309 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:15:43.309 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:16:10.472 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Lb_no == __LbNo_0
+select [d]"'
+2019-05-11 14:16:10.492 +05:30 [Debug] Compiling query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 14:16:10.849 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+where [d].Lb_no == __LbNo_0
+select [d]"'
+2019-05-11 14:16:10.849 +05:30 [Debug] Optimized query model: "
+"'"from CDetail d in DbSet<CDetail>
+join CLoan f in DbSet<CLoan>
+on [d].Id equals [f].CDetailId
+select new { 
+    [d].Lb_no, 
+    [d].make, 
+    [d].sl_no, 
+    [f].serNo
+ }"'
+2019-05-11 14:16:12.042 +05:30 [Information] 2019-05-11 14:16:12.042295 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:12.043 +05:30 [Information] 2019-05-11 14:16:12.042308 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:12.261 +05:30 [Information] 2019-05-11 14:16:12.261718 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:16:12.279 +05:30 [Information] 2019-05-11 14:16:12.278857 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:16:12.312 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<CDetail> _InterceptExceptions(
+|__ source: IEnumerable<CDetail> _TrackEntities(
+|   |__ results: IEnumerable<CDetail> _ShapedQuery(
+|   |   |__ queryContext: queryContext, 
+|   |   |__ shaperCommandContext: SelectExpression: 
+|   |   |       SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+|   |   |       FROM \"CDetails\" \"d\"
+|   |   |       WHERE \"d\".\"Lb_no\" = :LbNo_0, 
+|   |   |__ shaper: (MaterializationContext materializationContext) => 
+|   |       {
+|   |           instance = new CDetail()
+|   |           instance.<Id>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 0, CDetail.Id)
+|   |           instance.<Cpu>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 1, CDetail.Cpu)
+|   |           instance.<DvdType>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 2, CDetail.DvdType)
+|   |           instance.<Lb_no>k__BackingField = int TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 3, CDetail.Lb_no)
+|   |           instance.<Ram>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 4, CDetail.Ram)
+|   |           instance.<make>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 5, CDetail.make)
+|   |           instance.<sl_no>k__BackingField = string TryReadValue(ValueBuffer materializationContext.get_ValueBuffer(), 6, CDetail.sl_no)
+|   |           return instance
+|   |       }), 
+|   |__ queryContext: queryContext, 
+|   |__ entityTrackingInfos: { itemType: CDetail }, 
+|   |__ entityAccessors: List<Func<CDetail, object>> 
+|       { 
+|           Func<CDetail, CDetail>, 
+|       }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: queryContext)"
+2019-05-11 14:16:12.312 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType1<int, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CDetails\" \"d\"
+|   |       INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Outer, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Outer, 1, CDetail.make), 
+|           string TryReadValue(t0.Outer, 2, CDetail.sl_no), 
+|           Nullable<int> TryReadValue(t0.Inner, 3, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 14:16:14.190 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:14.190 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:14.190 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:22.438 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" received FIN.
+2019-05-11 14:16:22.439 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" disconnecting.
+2019-05-11 14:16:22.443 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" sending FIN.
+2019-05-11 14:16:22.459 +05:30 [Debug] Connection id ""0HLMLTJVIB3DQ"" stopped.
+2019-05-11 14:16:39.561 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:39.561 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:39.620 +05:30 [Information] 2019-05-11 14:16:39.620012 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:39.621 +05:30 [Information] 2019-05-11 14:16:39.620002 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:39.622 +05:30 [Information] 2019-05-11 14:16:39.621671 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:16:39.622 +05:30 [Information] 2019-05-11 14:16:39.622181 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:16:39.635 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:39.636 +05:30 [Information] 2019-05-11 14:16:39.636518 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:39.637 +05:30 [Information] 2019-05-11 14:16:39.637446 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:16:39.734 +05:30 [Information] 2019-05-11 14:16:39.733744 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-11 14:16:39.784 +05:30 [Information] 2019-05-11 14:16:39.784365 ThreadID:10  (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:16:39.786 +05:30 [Information] 2019-05-11 14:16:39.784365 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:16:39.795 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 14:16:39.840 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:16:39.840 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:16:40.741 +05:30 [Information] Executed DbCommand ("961"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-11 14:16:40.754 +05:30 [Information] Executed DbCommand ("970"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:16:40.758 +05:30 [Information] 2019-05-11 14:16:40.757926 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:40.760 +05:30 [Information] 2019-05-11 14:16:40.757907 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:40.763 +05:30 [Information] Executed DbCommand ("979"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:16:40.764 +05:30 [Information] 2019-05-11 14:16:40.764285 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:16:41.156 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:16:41.201 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:41.413 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:16:41.414 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:16:41.502 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:16:41.511 +05:30 [Debug] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:16:41.566 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:16:41.570 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:16:41.571 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:17:07.319 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:17:07.319 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:17:18.090 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:17:19.774 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:19.776 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:19.788 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:17:19.790 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:19.791 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:20.933 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 14:17:20.938 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 14:17:20.953 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 14:17:20.954 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 14:17:21.141 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 14:17:21.148 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 14:17:21.293 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 119167.7809ms
+2019-05-11 14:17:21.303 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:17:21.327 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"" completed keep alive response.
+2019-05-11 14:17:21.329 +05:30 [Information] Request finished in 121739.5159ms 200 application/json; charset=utf-8
+2019-05-11 14:17:21.394 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:21.394 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:21.456 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:21.456 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:21.496 +05:30 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+2019-05-11 14:17:21.497 +05:30 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+2019-05-11 14:17:22.190 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:17:22.190 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:17:22.258 +05:30 [Information] Executed DbCommand ("68"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:17:22.344 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:17:22.388 +05:30 [Debug] Committing transaction.
+2019-05-11 14:17:22.392 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:22.393 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:22.400 +05:30 [Debug] Disposing transaction.
+2019-05-11 14:17:22.434 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:17:22.455 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 1 entities written to the database.
+2019-05-11 14:17:23.717 +05:30 [Information] Executed DbCommand ("1,527"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:17:27.443 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:17:30.045 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:17:30.046 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:17:30.047 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:17:30.051 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" in 127921.9438ms
+2019-05-11 14:17:30.052 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:17:30.052 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" completed keep alive response.
+2019-05-11 14:17:30.065 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"", Request id ""0HLMLTJVIB3DS:00000001"": started reading request body.
+2019-05-11 14:17:30.079 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"", Request id ""0HLMLTJVIB3DS:00000001"": done reading request body.
+2019-05-11 14:17:30.080 +05:30 [Information] Request finished in 130493.3529ms 200 application/json; charset=utf-8
+2019-05-11 14:17:30.186 +05:30 [Error] 2019-05-11 14:17:30.186364 ThreadID:5   (ERROR)   OracleModificationCommandBatch.ConsumeAsync() :  Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Oracle.EntityFrameworkCore.Update.Internal.OracleModificationCommandBatch.<ConsumeAsync>d__26.MoveNext()
+2019-05-11 14:17:30.218 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:17:30.236 +05:30 [Debug] Disposing transaction.
+2019-05-11 14:17:30.237 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:30.238 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:17:30.297 +05:30 [Debug] "Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Oracle.EntityFrameworkCore.Update.Internal.OracleModificationCommandBatch.<ConsumeAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__81.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__79.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__53.MoveNext()"
+2019-05-11 14:17:37.307 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" in 135178.1094ms
+2019-05-11 14:17:37.347 +05:30 [Error] An unhandled exception has occurred: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Oracle.EntityFrameworkCore.Update.Internal.OracleModificationCommandBatch.<ConsumeAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__81.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__79.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at EmployeeService.Controllers.ComputerController.<Delete>d__4.MoveNext() in C:\Users\sudmini\source\repos\WebApplication1\WebApplication1\Controllers\ComputerController.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2019-05-11 14:17:37.869 +05:30 [Error] Error occurred: Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Oracle.EntityFrameworkCore.Update.Internal.OracleModificationCommandBatch.<ConsumeAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__81.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__79.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at EmployeeService.Controllers.ComputerController.<Delete>d__4.MoveNext() in C:\Users\sudmini\source\repos\WebApplication1\WebApplication1\Controllers\ComputerController.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2019-05-11 14:17:38.112 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:17:38.114 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" completed keep alive response.
+2019-05-11 14:17:38.115 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"", Request id ""0HLMLTJVIB3DR:00000001"": started reading request body.
+2019-05-11 14:17:38.120 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"", Request id ""0HLMLTJVIB3DR:00000001"": done reading request body.
+2019-05-11 14:17:38.121 +05:30 [Information] Request finished in 138534.2966ms 500 application/json
+2019-05-11 14:18:06.702 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer application/json 132
+2019-05-11 14:18:06.706 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:18:06.710 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer"'.
+2019-05-11 14:18:06.864 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-11 14:18:33.964 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 14:18:40.365 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:18:40.451 +05:30 [Debug] Compiling query model: "
+"'"from CLoan d in DbSet<CLoan>
+join CDetail f in DbSet<CDetail>
+on [d].CDetailId equals [f].Id
+select new { 
+    [f].Lb_no, 
+    [f].make, 
+    [f].sl_no, 
+    [f].Cpu, 
+    [f].DvdType, 
+    [f].Ram, 
+    [d].serNo
+ }"'
+2019-05-11 14:18:40.456 +05:30 [Debug] Optimized query model: "
+"'"from CLoan d in DbSet<CLoan>
+join CDetail f in DbSet<CDetail>
+on [d].CDetailId equals [f].Id
+select new { 
+    [f].Lb_no, 
+    [f].make, 
+    [f].sl_no, 
+    [f].Cpu, 
+    [f].DvdType, 
+    [f].Ram, 
+    [d].serNo
+ }"'
+2019-05-11 14:18:40.499 +05:30 [Information] 2019-05-11 14:18:40.499784 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:18:40.501 +05:30 [Information] 2019-05-11 14:18:40.501059 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:18:40.505 +05:30 [Debug] "(QueryContext queryContext) => IEnumerable<<>f__AnonymousType0<int, string, string, string, string, string, Nullable<int>>> _InterceptExceptions(
+|__ source: IEnumerable<<>f__AnonymousType0<int, string, string, string, string, string, Nullable<int>>> _ShapedQuery(
+|   |__ queryContext: queryContext, 
+|   |__ shaperCommandContext: SelectExpression: 
+|   |       SELECT \"f\".\"Lb_no\" \"LogBook\", \"f\".\"make\" \"ItemMake\", \"f\".\"sl_no\" \"SerialNo\", \"f\".\"Cpu\" \"CpuType\", \"f\".\"DvdType\" \"Player\", \"f\".\"Ram\" \"RamConfig\", \"d\".\"serNo\" \"loanHolder\"
+|   |       FROM \"CLoans\" \"d\"
+|   |       INNER JOIN \"CDetails\" \"f\" ON \"d\".\"CDetailId\" = \"f\".\"Id\", 
+|   |__ shaper: (QueryContext queryContext | TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => new { 
+|           int TryReadValue(t0.Inner, 0, CDetail.Lb_no), 
+|           string TryReadValue(t0.Inner, 1, CDetail.make), 
+|           string TryReadValue(t0.Inner, 2, CDetail.sl_no), 
+|           string TryReadValue(t0.Inner, 3, CDetail.Cpu), 
+|           string TryReadValue(t0.Inner, 4, CDetail.DvdType), 
+|           string TryReadValue(t0.Inner, 5, CDetail.Ram), 
+|           Nullable<int> TryReadValue(t0.Outer, 6, CLoan.serNo)
+|        }), 
+|__ contextType: EmployeeService.infrastructure.InventoryContext, 
+|__ logger: DiagnosticsLogger<Query>, 
+|__ queryContext: Unhandled parameter: queryContext)"
+2019-05-11 14:18:40.540 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:18:40.542 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:18:40.543 +05:30 [Information] 2019-05-11 14:18:40.543133 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:18:40.544 +05:30 [Information] 2019-05-11 14:18:40.544159 ThreadID:10  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-11 14:18:40.545 +05:30 [Information] 2019-05-11 14:18:40.545151 ThreadID:10  (SQL)     OracleRelationalCommand.Execute() : SELECT "f"."Lb_no" "LogBook", "f"."make" "ItemMake", "f"."sl_no" "SerialNo", "f"."Cpu" "CpuType", "f"."DvdType" "Player", "f"."Ram" "RamConfig", "d"."serNo" "loanHolder" FROM "CLoans" "d" INNER JOIN "CDetails" "f" ON "d"."CDetailId" = "f"."Id"
+2019-05-11 14:18:40.545 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"f\".\"Lb_no\" \"LogBook\", \"f\".\"make\" \"ItemMake\", \"f\".\"sl_no\" \"SerialNo\", \"f\".\"Cpu\" \"CpuType\", \"f\".\"DvdType\" \"Player\", \"f\".\"Ram\" \"RamConfig\", \"d\".\"serNo\" \"loanHolder\"
+FROM \"CLoans\" \"d\"
+INNER JOIN \"CDetails\" \"f\" ON \"d\".\"CDetailId\" = \"f\".\"Id\""
+2019-05-11 14:18:40.626 +05:30 [Information] Executed DbCommand ("81"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"f\".\"Lb_no\" \"LogBook\", \"f\".\"make\" \"ItemMake\", \"f\".\"sl_no\" \"SerialNo\", \"f\".\"Cpu\" \"CpuType\", \"f\".\"DvdType\" \"Player\", \"f\".\"Ram\" \"RamConfig\", \"d\".\"serNo\" \"loanHolder\"
+FROM \"CLoans\" \"d\"
+INNER JOIN \"CDetails\" \"f\" ON \"d\".\"CDetailId\" = \"f\".\"Id\""
+2019-05-11 14:18:40.627 +05:30 [Information] 2019-05-11 14:18:40.626944 ThreadID:10  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-11 14:18:40.637 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:18:40.638 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:18:40.639 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:18:49.396 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:18:52.086 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:18:52.088 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:18:52.090 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:18:52.965 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 46100.1191ms
+2019-05-11 14:18:52.968 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:18:52.969 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"" completed keep alive response.
+2019-05-11 14:18:52.970 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000002"": started reading request body.
+2019-05-11 14:18:52.972 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000002"": done reading request body.
+2019-05-11 14:18:52.972 +05:30 [Information] Request finished in 46269.9891ms 200 application/json; charset=utf-8
+2019-05-11 14:19:23.267 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" received FIN.
+2019-05-11 14:19:23.267 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" received FIN.
+2019-05-11 14:19:23.268 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" disconnecting.
+2019-05-11 14:19:23.268 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" disconnecting.
+2019-05-11 14:19:23.269 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" sending FIN.
+2019-05-11 14:19:23.269 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" sending FIN.
+2019-05-11 14:19:23.270 +05:30 [Debug] Connection id ""0HLMLTJVIB3DS"" stopped.
+2019-05-11 14:19:23.270 +05:30 [Debug] Connection id ""0HLMLTJVIB3DR"" stopped.
+2019-05-11 14:19:23.271 +05:30 [Information] Request starting HTTP/1.1 DELETE http://localhost:49631/api/computer/32145 application/json 132
+2019-05-11 14:19:23.275 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:19:23.276 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer/{LbNo}"'.
+2019-05-11 14:19:23.305 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)"
+2019-05-11 14:19:23.310 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" with arguments (["32145"]) - ModelState is Valid
+2019-05-11 14:19:34.236 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:20:41.116 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.117 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.118 +05:30 [Information] 2019-05-11 14:20:41.117980 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:20:41.118 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.122 +05:30 [Information] Executed DbCommand ("5"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.124 +05:30 [Debug] Context '"InventoryContext"' started tracking '"CDetail"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:20:41.125 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:20:41.126 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.126 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.213 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.214 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.215 +05:30 [Information] 2019-05-11 14:20:41.215061 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:20:41.215 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.219 +05:30 [Information] Executed DbCommand ("4"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.219 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:20:41.220 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.221 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.359 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.361 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.361 +05:30 [Information] 2019-05-11 14:20:41.361527 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:20:41.362 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.365 +05:30 [Information] Executed DbCommand ("4"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:41.366 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:20:41.366 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:41.367 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:53.368 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:53.369 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:20:53.370 +05:30 [Information] 2019-05-11 14:20:53.370074 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Id", "d"."Cpu", "d"."DvdType", "d"."Lb_no", "d"."Ram", "d"."make", "d"."sl_no" FROM "CDetails" "d" WHERE "d"."Lb_no" = :LbNo_0
+2019-05-11 14:20:53.370 +05:30 [Debug] Executing DbCommand [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:20:53.379 +05:30 [Warning] Heartbeat took longer than "00:00:01" at "05/11/2019 08:50:52 +00:00".
+2019-05-11 14:20:53.388 +05:30 [Information] Executed DbCommand ("18"ms) [Parameters=[":LbNo_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Id\", \"d\".\"Cpu\", \"d\".\"DvdType\", \"d\".\"Lb_no\", \"d\".\"Ram\", \"d\".\"make\", \"d\".\"sl_no\"
+FROM \"CDetails\" \"d\"
+WHERE \"d\".\"Lb_no\" = :LbNo_0"
+2019-05-11 14:21:01.857 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:21:04.425 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:21:04.426 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:04.428 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:07.584 +05:30 [Debug] SaveChanges starting for '"InventoryContext"'.
+2019-05-11 14:21:07.585 +05:30 [Debug] DetectChanges starting for '"InventoryContext"'.
+2019-05-11 14:21:07.587 +05:30 [Debug] DetectChanges completed for '"InventoryContext"'.
+2019-05-11 14:21:07.589 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:07.591 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:07.592 +05:30 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+2019-05-11 14:21:07.596 +05:30 [Debug] Executing DbCommand [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:21:07.602 +05:30 [Information] Executed DbCommand ("7"ms) [Parameters=[":p0='?' (DbType = Int32), cur1='?' (Direction = Output) (DbType = Object)"], CommandType='Text', CommandTimeout='0']"
+""DECLARE
+v_RowCount INTEGER;
+BEGIN
+DELETE FROM \"CDetails\"
+WHERE \"Id\" = :p0;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur1 FOR SELECT v_RowCount FROM DUAL;
+
+END;"
+2019-05-11 14:21:07.604 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:21:07.638 +05:30 [Debug] Committing transaction.
+2019-05-11 14:21:07.639 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:07.640 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:07.640 +05:30 [Debug] Disposing transaction.
+2019-05-11 14:21:07.641 +05:30 [Debug] An '"CDetail"' entity tracked by '"InventoryContext"' changed from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2019-05-11 14:21:07.642 +05:30 [Debug] SaveChanges completed for '"InventoryContext"' with 1 entities written to the database.
+2019-05-11 14:21:12.878 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:21:14.667 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:21:14.668 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:21:14.669 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:21:14.671 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Delete (EmployeeService)" in 111365.2684ms
+2019-05-11 14:21:14.672 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:21:14.673 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"" completed keep alive response.
+2019-05-11 14:21:14.675 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000003"": started reading request body.
+2019-05-11 14:21:14.681 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000003"": done reading request body.
+2019-05-11 14:21:14.684 +05:30 [Information] Request finished in 111412.7342ms 200 application/json; charset=utf-8
+2019-05-11 14:21:30.713 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer application/json 132
+2019-05-11 14:21:30.715 +05:30 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2019-05-11 14:21:30.718 +05:30 [Debug] Request successfully matched the route with name 'null' and template '"api/Computer"'.
+2019-05-11 14:21:30.721 +05:30 [Debug] Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-11 14:21:39.621 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" with arguments (null) - ModelState is Valid
+2019-05-11 14:21:44.663 +05:30 [Information] Entity Framework Core "2.2.1-servicing-10028" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-11 14:21:44.779 +05:30 [Debug] Opening connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:44.781 +05:30 [Debug] Opened connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:44.781 +05:30 [Information] 2019-05-11 14:21:44.781723 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "f"."Lb_no" "LogBook", "f"."make" "ItemMake", "f"."sl_no" "SerialNo", "f"."Cpu" "CpuType", "f"."DvdType" "Player", "f"."Ram" "RamConfig", "d"."serNo" "loanHolder" FROM "CLoans" "d" INNER JOIN "CDetails" "f" ON "d"."CDetailId" = "f"."Id"
+2019-05-11 14:21:44.783 +05:30 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"f\".\"Lb_no\" \"LogBook\", \"f\".\"make\" \"ItemMake\", \"f\".\"sl_no\" \"SerialNo\", \"f\".\"Cpu\" \"CpuType\", \"f\".\"DvdType\" \"Player\", \"f\".\"Ram\" \"RamConfig\", \"d\".\"serNo\" \"loanHolder\"
+FROM \"CLoans\" \"d\"
+INNER JOIN \"CDetails\" \"f\" ON \"d\".\"CDetailId\" = \"f\".\"Id\""
+2019-05-11 14:21:44.785 +05:30 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"f\".\"Lb_no\" \"LogBook\", \"f\".\"make\" \"ItemMake\", \"f\".\"sl_no\" \"SerialNo\", \"f\".\"Cpu\" \"CpuType\", \"f\".\"DvdType\" \"Player\", \"f\".\"Ram\" \"RamConfig\", \"d\".\"serNo\" \"loanHolder\"
+FROM \"CLoans\" \"d\"
+INNER JOIN \"CDetails\" \"f\" ON \"d\".\"CDetailId\" = \"f\".\"Id\""
+2019-05-11 14:21:44.786 +05:30 [Debug] A data reader was disposed.
+2019-05-11 14:21:44.786 +05:30 [Debug] Closing connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:21:44.787 +05:30 [Debug] Closed connection to database '""' on server '"127.0.0.1:1521/XE"'.
+2019-05-11 14:22:01.769 +05:30 [Debug] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2019-05-11 14:22:04.234 +05:30 [Debug] No information found on request to perform content negotiation.
+2019-05-11 14:22:04.235 +05:30 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2019-05-11 14:22:04.237 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2019-05-11 14:22:04.239 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 33515.3253ms
+2019-05-11 14:22:04.240 +05:30 [Debug] '"InventoryContext"' disposed.
+2019-05-11 14:22:04.241 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"" completed keep alive response.
+2019-05-11 14:22:04.244 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000004"": started reading request body.
+2019-05-11 14:22:04.245 +05:30 [Debug] Connection id ""0HLMLTJVIB3DT"", Request id ""0HLMLTJVIB3DT:00000004"": done reading request body.
+2019-05-11 14:22:04.246 +05:30 [Information] Request finished in 33533.6396ms 200 application/json; charset=utf-8

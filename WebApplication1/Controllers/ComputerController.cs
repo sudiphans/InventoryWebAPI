@@ -16,11 +16,11 @@ namespace EmployeeService.Controllers
     {
         public readonly InventoryContext _db;
         //initalizing  database context
-        public ComputerController (InventoryContext db)
+        public ComputerController(InventoryContext db)
         {
             _db = db;
         }
-        
+
         //getting the computerdetails from this get method
         [HttpGet]
         public ActionResult Get()
@@ -41,16 +41,8 @@ namespace EmployeeService.Controllers
                             Player = f.DvdType,
                             RamConfig = f.Ram,
                             loanHolder = d.serNo
-                        }
-                        
-
-
-                        ).ToList();
-
-
+                        }).ToList();
             return Ok(data);
-
-
         }
 
 
@@ -58,53 +50,41 @@ namespace EmployeeService.Controllers
         [HttpPost]
         public ActionResult Post([FromBody]CDetail CDetailRec)
         {
-            try
-            {
-                /*
-                var cdetail = new CDetail
-                {
-                    Id = CDetailRec.Id,
-                    Lb_no = CDetailRec.Lb_no,
-                    sl_no = CDetailRec.sl_no,
-                    make = CDetailRec.make,
-                    Cpu = CDetailRec.Cpu,
-                    DvdType = CDetailRec.DvdType,
-                    Ram = CDetailRec.Ram,
-                    CLoan = CDetailRec.CLoan
 
-
-
-                };
-                */
-
-
-                _db.CDetails.Add(CDetailRec);
-                _db.SaveChanges();
-
-                /*
-                var cdetail = new CDetail{
-                    Id = 2,
-                    Lb_no = 2,
-                    sl_no = "1234",
-                    make = "hcl"
-                };
-
-                var cloan = new CLoan { Id = 2, serNo = 777698 };
-
-                cdetail.CLoan = cloan;
-
-                _db.CDetails.Add(cdetail);
-                _db.SaveChanges();
-                  */
-
-
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message + "Inner" + ex.InnerException);
-            }
-
+            _db.CDetails.Add(CDetailRec);
+            _db.SaveChanges();
             return Ok("Saved");
+        }
+
+        
+        [HttpDelete("{LbNo}")]
+        public async Task<ActionResult> Delete(int LbNo)
+        {
+            List<int> DeletedId = new List<int>();
+
+            var CdetailRecieved = (from d in _db.CDetails where d.Lb_no == LbNo select d);
+
+            if(CdetailRecieved == null)
+            {
+                return NoContent();
+            }
+            else
+            {
+                foreach (CDetail c in CdetailRecieved)
+                {
+                    DeletedId.Add(c.Id);
+                    _db.CDetails.Remove(c);
+              
+
+
+                }
+
+                await _db.SaveChangesAsync();
+                return Ok("Deleted Items:"+DeletedId.Count());
+            }
+
+
+
         }
 
 
