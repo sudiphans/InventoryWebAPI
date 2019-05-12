@@ -21,6 +21,13 @@ using EmployeeService.Models;
 using EmployeeService.ActionFilter;
 using EmployeeService.ExceptionHandler;
 using Serilog;
+using Microsoft.OData;
+using Microsoft.AspNet.OData;
+using Microsoft.AspNet.OData.Extensions;
+using Microsoft.AspNet.OData.Builder;
+using Microsoft.OData.Edm;
+
+
 
 
 
@@ -45,15 +52,29 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             
-         
+            
             services.AddDbContext<InventoryContext>(options =>
-            options.UseOracle(Configuration["ConnectionString"]));
+            {
+                options.UseOracle(Configuration["ConnectionString"]);
+                //options.EnableSensitiveDataLogging();
+            });
+
+
+
 
             services.AddMvc(options =>
-            { 
+            {
                 //adding filters in MVC
-                 options.Filters.Add(typeof(ModelStateFilter));
-            }).AddFluentValidation(fv=> fv.RegisterValidatorsFromAssemblyContaining<Startup>()); //adding fluent validation DI
+                options.Filters.Add(typeof(ModelStateFilter));
+            }).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>())//adding fluent validation DI
+               .AddJsonOptions(options =>
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
+
+
+            services.AddOData();
+           services.AddTransient<CdetailModelBuilder>();
 
             //JWT authentication add on for keycloak 
             //refer keycloak auth for more info
@@ -91,7 +112,7 @@ namespace WebApplication1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,CdetailModelBuilder cdetailModelBuilder)
         {
             if (env.IsDevelopment())
             {
@@ -100,9 +121,19 @@ namespace WebApplication1
 
            loggerFactory.AddSerilog();
             Log.Information("Data Logging started .");
+
            app.OnConfiguringException();
+
             app.UseAuthentication();
-            app.UseMvc();
+
+            app.UseMvc(routeBuilder =>
+            {
+                routeBuilder.EnableDependencyInjection();
+                routeBuilder.Expand().Select().OrderBy().Filter().MaxTop(null).Count();
+                routeBuilder.MapODataServiceRoute("odata", "odata", cdetailModelBuilder.GetEdmModel(app.ApplicationServices));
+
+
+            });
            
         }
     }
