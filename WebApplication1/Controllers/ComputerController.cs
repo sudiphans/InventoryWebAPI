@@ -82,7 +82,22 @@ namespace EmployeeService.Controllers
             return Ok("Saved");
         }
 
-        
+        /// <summary>
+        /// Deletes a specific LogBook Number.
+        /// </summary>
+        /// <param name="LbNo"></param> 
+        /// /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /delete
+        ///     {
+        ///        "LbNo":1
+        ///     }
+        ///
+        /// </remarks>
+        /// <returns>Deleted LogBook Number</returns>
+        /// <response code="200">Returns the deleted logbook no code</response>
+        /// <response code="501">Internal server error</response>   
         [HttpDelete("{LbNo}")]
         public async Task<ActionResult> Delete(int LbNo)
         {

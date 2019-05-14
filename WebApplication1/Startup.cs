@@ -30,10 +30,11 @@ using EmployeeService.CommService;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.OData;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using EmployeeService.config;
+
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNet.OData.Formatter;
 using Microsoft.Net.Http.Headers;
+using System.IO;
 
 namespace WebApplication1
 {
@@ -83,7 +84,28 @@ namespace WebApplication1
           
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Inventory Manager API",
+                    Description = "Inventory Manager using ASP.NET Core Web API",
+                    TermsOfService = "None",
+                    Contact = new Contact
+                    {
+                        Name = "Sudip Kumar Prasad",
+                        Email = "sudiphansraj1@gmail.com",
+                        Url = string.Empty,
+                    },
+                    License = new License
+                    {
+                        Name = "Use GPL",
+                        Url = "https://example.com/license"
+                    }
+                });
+
+                var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
 
 
