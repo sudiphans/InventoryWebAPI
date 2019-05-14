@@ -13,7 +13,7 @@ namespace EmployeeService.Controllers
 {
     [Produces("application/json")]
     [Route("api/Computer")]
-    public class ComputerController : ODataController
+    public class ComputerController : Controller
     {
         public readonly InventoryContext _db;
         //initalizing  database context
@@ -24,7 +24,7 @@ namespace EmployeeService.Controllers
 
         //getting the computerdetails from this get method
         [HttpGet]
-        [EnableQuery]
+        //[EnableQuery]
         public ActionResult Get()
         {
 

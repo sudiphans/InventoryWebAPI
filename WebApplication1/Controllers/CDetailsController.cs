@@ -7,8 +7,10 @@ using Microsoft.OData;
 using Microsoft.AspNet.OData;
 using EmployeeService.infrastructure;
 using EmployeeService.Models;
+using EmployeeService.CommService;
 
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,15 +18,24 @@ using Microsoft.EntityFrameworkCore;
 namespace EmployeeService.Controllers
 {
 
+   
+
     [Produces("application/json")]
   // [Route("api/odata/CDetails")]
-    public class CDetailsController : ODataController
+    public class CDetailsController : Controller
     {
         public readonly InventoryContext _db;
+
+        public MailService _mailer;
+
+       // public ILogger _logger;
         //initalizing  database context
-        public CDetailsController(InventoryContext db)
+        public CDetailsController(InventoryContext db, MailService mailer)
         {
             _db = db;
+            _mailer = mailer;
+           
+            
         }
 
         //[HttpGet]
@@ -53,15 +64,19 @@ namespace EmployeeService.Controllers
 
 
         //  [ODataRoute("Detail")]
-        [EnableQuery]
+       // [EnableQuery]
         [HttpGet]
         public IQueryable<CDetail> Get()
         {
             var res = _db.CDetails.AsQueryable();
-
+                     
             return res;
+
+         }
+
+        private void mailService(object source, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
-
-
     }
 }

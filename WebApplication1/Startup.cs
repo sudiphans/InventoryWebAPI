@@ -26,10 +26,14 @@ using Microsoft.AspNet.OData;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.OData.Edm;
-
-
-
-
+using EmployeeService.CommService;
+using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.OData;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using EmployeeService.config;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.AspNet.OData.Formatter;
+using Microsoft.Net.Http.Headers;
 
 namespace WebApplication1
 {
@@ -42,6 +46,7 @@ namespace WebApplication1
             Environment = env;
 
            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
+            Log.Information("++++++++Data Logging Started+++++++++++");
         
         }
 
@@ -64,6 +69,7 @@ namespace WebApplication1
 
             services.AddMvc(options =>
             {
+                
                 //adding filters in MVC
                 options.Filters.Add(typeof(ModelStateFilter));
             }).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>())//adding fluent validation DI
@@ -72,9 +78,18 @@ namespace WebApplication1
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 });
 
+           
+
+          
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+            });
+
 
             services.AddOData();
            services.AddTransient<CdetailModelBuilder>();
+            services.AddTransient<MailService>();
 
             //JWT authentication add on for keycloak 
             //refer keycloak auth for more info
@@ -108,19 +123,40 @@ namespace WebApplication1
                 };
             });
 
+            // Workaround: https://github.com/OData/WebApi/issues/1177
+            services.AddMvcCore(options =>
+            {
+                foreach (var outputFormatter in options.OutputFormatters.OfType<ODataOutputFormatter>().Where(_ => _.SupportedMediaTypes.Count == 0))
+                {
+                    outputFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("application/prs.odatatestxx-odata"));
+                }
+                foreach (var inputFormatter in options.InputFormatters.OfType<ODataInputFormatter>().Where(_ => _.SupportedMediaTypes.Count == 0))
+                {
+                    inputFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("application/prs.odatatestxx-odata"));
+                }
+            });
+
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,CdetailModelBuilder cdetailModelBuilder)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,CdetailModelBuilder cdetailModelBuilder )
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-           loggerFactory.AddSerilog();
-            Log.Information("Data Logging started .");
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+
+
+
+            loggerFactory.AddSerilog();
+           
 
            app.OnConfiguringException();
 
@@ -134,7 +170,10 @@ namespace WebApplication1
 
 
             });
+
            
+
+
         }
     }
 }
