@@ -35,6 +35,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNet.OData.Formatter;
 using Microsoft.Net.Http.Headers;
 using System.IO;
+using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace WebApplication1
 {
@@ -62,6 +63,7 @@ namespace WebApplication1
             services.AddDbContext<InventoryContext>(options =>
             {
                 options.UseOracle(Configuration["ConnectionString"]);
+                options.UseLazyLoadingProxies(); //enabling lazy loading proxies refer microsoft docs
                 //options.EnableSensitiveDataLogging();
             });
 

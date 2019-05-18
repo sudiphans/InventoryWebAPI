@@ -8,6 +8,8 @@ using EmployeeService.infrastructure;
 using EmployeeService.Models;
 using System.Net;
 using Microsoft.AspNet.OData;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace EmployeeService.Controllers
 {
@@ -30,21 +32,34 @@ namespace EmployeeService.Controllers
 
             //this code will return the details from the computerdetail table
 
-            var data = (from d in _db.CLoans
-                        join
-                        f in _db.CDetails
-                        on d.CDetailId equals f.Id
-                        select new
-                        {
-                            LogBook = f.Lb_no,
-                            ItemMake = f.make,
-                            SerialNo = f.sl_no,
-                            CpuType = f.Cpu,
-                            Player = f.DvdType,
-                            RamConfig = f.Ram,
-                            loanHolder = d.serNo
-                        }).ToList();
-            return Ok(data);
+           
+            var data = _db.CDetails
+                      
+                .ToList();
+
+            List<int?> loanHolders = new List<int?>();
+
+            foreach(CDetail d in data)
+            {
+                var LoanHolder = d.CLoan.serNo;
+                loanHolders.Add(LoanHolder);
+            }
+
+            //var data = (from d in _db.CLoans
+            //            join
+            //            f in _db.CDetails
+            //            on d.CDetailId equals f.Id
+            //            select new
+            //            {
+            //                LogBook = f.Lb_no,
+            //                ItemMake = f.make,
+            //                SerialNo = f.sl_no,
+            //                CpuType = f.Cpu,
+            //                Player = f.DvdType,
+            //                RamConfig = f.Ram,
+            //                loanHolder = d.serNo
+            //            }).ToList();
+            return Ok(loanHolders);
         }
 
 

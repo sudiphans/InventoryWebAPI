@@ -26,7 +26,7 @@ namespace EmployeeService.Models
         public string Ram { get; set; }
 
         //navigational property
-        public CLoan CLoan { get; set; }
+        public virtual CLoan CLoan { get; set; }
 
     }
 }

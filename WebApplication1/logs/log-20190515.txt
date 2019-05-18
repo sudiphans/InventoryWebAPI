@@ -1,0 +1,471 @@
+2019-05-15 22:46:21.129 +05:30 [Information] ++++++++Data Logging Started+++++++++++
+2019-05-15 22:46:25.933 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-15 22:46:31.023 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer  
+2019-05-15 22:46:31.023 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-15 22:46:31.023 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-15 22:46:31.140 +05:30 [Information] Request finished in 133.1909ms 200 
+2019-05-15 22:46:32.952 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Computer\"}". Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-15 22:46:32.952 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-15 22:46:34.004 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:46:34.004 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:46:34.421 +05:30 [Information] 2019-05-15 22:46:34.419519 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:34.439 +05:30 [Information] 2019-05-15 22:46:34.439380 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:34.443 +05:30 [Information] 2019-05-15 22:46:34.443757 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:46:34.487 +05:30 [Information] 2019-05-15 22:46:34.487628 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:34.487 +05:30 [Information] 2019-05-15 22:46:34.487966 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:34.488 +05:30 [Information] 2019-05-15 22:46:34.488172 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:46:34.488 +05:30 [Information] 2019-05-15 22:46:34.488950 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:34.489 +05:30 [Information] 2019-05-15 22:46:34.489076 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:34.489 +05:30 [Information] 2019-05-15 22:46:34.489189 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:46:34.616 +05:30 [Information] 2019-05-15 22:46:34.616437 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:34.618 +05:30 [Information] 2019-05-15 22:46:34.617884 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:34.618 +05:30 [Information] 2019-05-15 22:46:34.618733 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:46:35.097 +05:30 [Information] 2019-05-15 22:46:35.097201 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:35.097 +05:30 [Information] 2019-05-15 22:46:35.097457 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:35.097 +05:30 [Information] 2019-05-15 22:46:35.097601 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:46:35.101 +05:30 [Information] 2019-05-15 22:46:35.101332 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:35.101 +05:30 [Information] 2019-05-15 22:46:35.101653 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:35.101 +05:30 [Information] 2019-05-15 22:46:35.101809 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:46:35.102 +05:30 [Information] 2019-05-15 22:46:35.102191 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:46:35.102 +05:30 [Information] 2019-05-15 22:46:35.102349 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:46:35.102 +05:30 [Information] 2019-05-15 22:46:35.102851 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:46:35.220 +05:30 [Information] 2019-05-15 22:46:35.220747 ThreadID:6   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.4-servicing-10062
+  Relational:MaxIdentifierLength: 128
+2019-05-15 22:46:35.543 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-15 22:46:35.543 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-15 22:46:44.210 +05:30 [Information] 2019-05-15 22:46:44.210336 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:46:44.210 +05:30 [Information] 2019-05-15 22:46:44.210368 ThreadID:11  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:46:44.247 +05:30 [Information] 2019-05-15 22:46:44.246947 ThreadID:11  (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:46:44.260 +05:30 [Information] 2019-05-15 22:46:44.260750 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:46:44.353 +05:30 [Information] 2019-05-15 22:46:44.353434 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-15 22:46:44.353 +05:30 [Information] 2019-05-15 22:46:44.353476 ThreadID:11  (SQL)     OracleRelationalCommand.Execute() : SELECT "c"."Id", "c"."Cpu", "c"."DvdType", "c"."Lb_no", "c"."Ram", "c"."make", "c"."sl_no" FROM "CDetails" "c"
+2019-05-15 22:46:44.732 +05:30 [Information] Executed DbCommand ("366"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-15 22:46:44.732 +05:30 [Information] Executed DbCommand ("366"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"c\".\"Id\", \"c\".\"Cpu\", \"c\".\"DvdType\", \"c\".\"Lb_no\", \"c\".\"Ram\", \"c\".\"make\", \"c\".\"sl_no\"
+FROM \"CDetails\" \"c\""
+2019-05-15 22:46:44.736 +05:30 [Information] 2019-05-15 22:46:44.736102 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:46:44.736 +05:30 [Information] 2019-05-15 22:46:44.736102 ThreadID:11  (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:46:44.958 +05:30 [Information] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10942.8626ms.
+2019-05-15 22:46:44.958 +05:30 [Information] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10921.4082ms.
+2019-05-15 22:46:45.008 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:46:45.013 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[EmployeeService.Models.CDetail, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:46:45.262 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 12295.8934ms
+2019-05-15 22:46:45.262 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 12295.8969ms
+2019-05-15 22:46:45.279 +05:30 [Information] Request finished in 14274.6191ms 200 application/json; charset=utf-8
+2019-05-15 22:46:45.279 +05:30 [Information] Request finished in 14274.4382ms 200 application/json; charset=utf-8
+2019-05-15 22:46:45.643 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/favicon.ico  
+2019-05-15 22:46:45.653 +05:30 [Information] Request finished in 9.9025ms 404 
+2019-05-15 22:48:27.402 +05:30 [Information] ++++++++Data Logging Started+++++++++++
+2019-05-15 22:48:28.493 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-15 22:48:30.440 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-15 22:48:30.440 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-15 22:48:30.487 +05:30 [Information] Request finished in 62.3963ms 200 
+2019-05-15 22:48:31.195 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-15 22:48:31.737 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:48:32.055 +05:30 [Information] 2019-05-15 22:48:32.053187 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.074 +05:30 [Information] 2019-05-15 22:48:32.073973 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.079 +05:30 [Information] 2019-05-15 22:48:32.079106 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:48:32.120 +05:30 [Information] 2019-05-15 22:48:32.120901 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.121 +05:30 [Information] 2019-05-15 22:48:32.121337 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.121 +05:30 [Information] 2019-05-15 22:48:32.121637 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:48:32.123 +05:30 [Information] 2019-05-15 22:48:32.122940 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.123 +05:30 [Information] 2019-05-15 22:48:32.123172 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.123 +05:30 [Information] 2019-05-15 22:48:32.123438 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:48:32.247 +05:30 [Information] 2019-05-15 22:48:32.246962 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.247 +05:30 [Information] 2019-05-15 22:48:32.247320 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.247 +05:30 [Information] 2019-05-15 22:48:32.247422 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:48:32.717 +05:30 [Information] 2019-05-15 22:48:32.717005 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.717 +05:30 [Information] 2019-05-15 22:48:32.717340 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.718 +05:30 [Information] 2019-05-15 22:48:32.718213 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.721941 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.722158 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.722256 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.722423 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.722641 ThreadID:5   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:48:32.722 +05:30 [Information] 2019-05-15 22:48:32.722748 ThreadID:5   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:48:32.833 +05:30 [Information] 2019-05-15 22:48:32.833105 ThreadID:5   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details 0 -1 1 -1 -1
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan 0 -1 2 -1 -1
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.DirectConstructorBinding
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.4-servicing-10062
+  Relational:MaxIdentifierLength: 128
+2019-05-15 22:48:33.113 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-15 22:48:35.083 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer  
+2019-05-15 22:48:35.126 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Computer\"}". Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-15 22:48:35.128 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:48:35.135 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "None"
+2019-05-15 22:48:38.650 +05:30 [Information] 2019-05-15 22:48:38.650134 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:48:38.650 +05:30 [Information] 2019-05-15 22:48:38.650134 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:48:38.708 +05:30 [Information] 2019-05-15 22:48:38.708927 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:48:38.709 +05:30 [Information] 2019-05-15 22:48:38.708899 ThreadID:9   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:48:38.735 +05:30 [Information] 2019-05-15 22:48:38.735021 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "c"."Id", "c"."Cpu", "c"."DvdType", "c"."Lb_no", "c"."Ram", "c"."make", "c"."sl_no", "c.CLoan"."Id", "c.CLoan"."CDetailId", "c.CLoan"."serNo" FROM "CDetails" "c" LEFT JOIN "CLoans" "c.CLoan" ON "c"."Id" = "c.CLoan"."CDetailId"
+2019-05-15 22:48:38.735 +05:30 [Information] 2019-05-15 22:48:38.735021 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-15 22:48:38.900 +05:30 [Information] Executed DbCommand ("161"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"c\".\"Id\", \"c\".\"Cpu\", \"c\".\"DvdType\", \"c\".\"Lb_no\", \"c\".\"Ram\", \"c\".\"make\", \"c\".\"sl_no\", \"c.CLoan\".\"Id\", \"c.CLoan\".\"CDetailId\", \"c.CLoan\".\"serNo\"
+FROM \"CDetails\" \"c\"
+LEFT JOIN \"CLoans\" \"c.CLoan\" ON \"c\".\"Id\" = \"c.CLoan\".\"CDetailId\""
+2019-05-15 22:48:38.900 +05:30 [Information] Executed DbCommand ("156"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-15 22:48:38.905 +05:30 [Information] 2019-05-15 22:48:38.905237 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:48:38.905 +05:30 [Information] 2019-05-15 22:48:38.905434 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:48:39.030 +05:30 [Information] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7282.5173ms.
+2019-05-15 22:48:39.096 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:48:39.184 +05:30 [Information] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4056.2613ms.
+2019-05-15 22:48:39.195 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[EmployeeService.Models.CDetail, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:48:39.363 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 4225.9651ms
+2019-05-15 22:48:39.363 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 8151.9988ms
+2019-05-15 22:48:39.374 +05:30 [Information] Request finished in 8952.5961ms 200 application/json; charset=utf-8
+2019-05-15 22:48:39.377 +05:30 [Information] Request finished in 4293.4361ms 200 application/json; charset=utf-8
+2019-05-15 22:56:57.891 +05:30 [Information] ++++++++Data Logging Started+++++++++++
+2019-05-15 22:56:58.755 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-15 22:57:00.740 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-15 22:57:00.740 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-15 22:57:00.790 +05:30 [Information] Request finished in 67.7554ms 200 
+2019-05-15 22:57:01.604 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-15 22:57:02.171 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:57:02.553 +05:30 [Information] 2019-05-15 22:57:02.551692 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:02.575 +05:30 [Information] 2019-05-15 22:57:02.575568 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:02.581 +05:30 [Information] 2019-05-15 22:57:02.581494 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:57:02.632 +05:30 [Information] 2019-05-15 22:57:02.632825 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:02.633 +05:30 [Information] 2019-05-15 22:57:02.633055 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:02.633 +05:30 [Information] 2019-05-15 22:57:02.633245 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:57:02.633 +05:30 [Information] 2019-05-15 22:57:02.633907 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:02.634 +05:30 [Information] 2019-05-15 22:57:02.634047 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:02.634 +05:30 [Information] 2019-05-15 22:57:02.634163 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:57:02.770 +05:30 [Information] 2019-05-15 22:57:02.770507 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:02.770 +05:30 [Information] 2019-05-15 22:57:02.770716 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:02.770 +05:30 [Information] 2019-05-15 22:57:02.770962 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:57:03.157 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer  
+2019-05-15 22:57:03.163 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Computer\"}". Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-15 22:57:03.165 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:57:03.331 +05:30 [Information] 2019-05-15 22:57:03.331055 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:03.331 +05:30 [Information] 2019-05-15 22:57:03.331594 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:03.331 +05:30 [Information] 2019-05-15 22:57:03.331803 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:57:03.336 +05:30 [Information] 2019-05-15 22:57:03.336216 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:03.336 +05:30 [Information] 2019-05-15 22:57:03.336496 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:03.336 +05:30 [Information] 2019-05-15 22:57:03.336621 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:57:03.336 +05:30 [Information] 2019-05-15 22:57:03.336904 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:57:03.337 +05:30 [Information] 2019-05-15 22:57:03.337072 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:57:03.337 +05:30 [Information] 2019-05-15 22:57:03.337197 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:58:18.186 +05:30 [Information] ++++++++Data Logging Started+++++++++++
+2019-05-15 22:58:19.038 +05:30 [Information] User profile is available. Using '"C:\Users\sudmini\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-15 22:58:20.889 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-15 22:58:20.889 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:49631/  0
+2019-05-15 22:58:20.947 +05:30 [Information] Request finished in 73.0316ms 200 
+2019-05-15 22:58:21.667 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-15 22:58:21.785 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer  
+2019-05-15 22:58:21.792 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Computer\"}". Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-15 22:58:22.229 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:58:22.229 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:58:22.588 +05:30 [Information] 2019-05-15 22:58:22.586250 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:22.607 +05:30 [Information] 2019-05-15 22:58:22.607271 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:22.611 +05:30 [Information] 2019-05-15 22:58:22.611677 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:58:22.660 +05:30 [Information] 2019-05-15 22:58:22.660420 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:22.660 +05:30 [Information] 2019-05-15 22:58:22.660644 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:22.660 +05:30 [Information] 2019-05-15 22:58:22.660841 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:58:22.661 +05:30 [Information] 2019-05-15 22:58:22.661606 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CLoan, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:22.661 +05:30 [Information] 2019-05-15 22:58:22.661759 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:22.661 +05:30 [Information] 2019-05-15 22:58:22.661860 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:58:22.800 +05:30 [Information] 2019-05-15 22:58:22.800290 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:EmployeeService.Models.CDetail, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:22.800 +05:30 [Information] 2019-05-15 22:58:22.800534 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:22.800 +05:30 [Information] 2019-05-15 22:58:22.800632 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : No mappings found
+2019-05-15 22:58:23.275 +05:30 [Information] 2019-05-15 22:58:23.275408 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:True, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:23.275 +05:30 [Information] 2019-05-15 22:58:23.275638 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:23.275 +05:30 [Information] 2019-05-15 22:58:23.275838 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279183 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.String, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279380 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279479 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping, ClrType:System.String, DbType:, IsFixedLength:False, IsUnicode:True, Size:2000, StoreType:NVARCHAR2(2000), StoreTypePostfix:Size
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279689 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : RelationalTypeMappingInfo:: IsUnicode:, IsKeyOrIndex:False, IsFixedLength:False, Scale:, Precision:, Size:, ClrType:System.Int32, StoreTypeNameBase:, StoreTypeName:, IsRowVersion:False, StoreTypeNameSizeIsMax:False
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279815 ThreadID:6   (MAP)     OracleTypeMappingSource.FindRawMapping() : finding mapping for clrType..
+2019-05-15 22:58:23.279 +05:30 [Information] 2019-05-15 22:58:23.279893 ThreadID:6   (MAP)     OracleTypeMappingSource.FindMapping() : MappingName:Microsoft.EntityFrameworkCore.Storage.IntTypeMapping, ClrType:System.Int32, DbType:Int32, IsFixedLength:False, IsUnicode:False, Size:, StoreType:NUMBER(10), StoreTypePostfix:None
+2019-05-15 22:58:23.678 +05:30 [Information] 2019-05-15 22:58:23.678366 ThreadID:6   (MAP)     OracleModelValidator.Validate() : Model: 
+  EntityType: CDetail
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Cpu (string) 1 1 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      DvdType (string) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      Lb_no (int) Required 3 3 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      Ram (string) 4 4 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      make (string) 5 5 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+      sl_no (string) 6 6 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Oracle.EntityFrameworkCore.Storage.Internal.OracleStringTypeMapping
+    Navigations: 
+      CLoan (<CLoan>k__BackingField, CLoan) ToDependent CLoan Inverse: details PropertyAccessMode.Field 0 -1 1 -1 -1
+        Annotations: 
+          PropertyAccessMode: Field
+    Service properties: 
+      LazyLoader (no field, ILazyLoader)
+    Keys: 
+      Id PK
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.FactoryMethodConstructorBinding
+      NavigationAccessMode: Field
+      Relational:TableName: CDetails
+  EntityType: CLoan
+    Properties: 
+      Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd 0 0 0 -1 0
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      CDetailId (int) Required FK Index 1 1 1 -1 1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+      serNo (Nullable<int>) 2 2 -1 -1 -1
+        Annotations: 
+          Relational:TypeMapping: Microsoft.EntityFrameworkCore.Storage.IntTypeMapping
+    Navigations: 
+      details (<details>k__BackingField, CDetail) ToPrincipal CDetail Inverse: CLoan PropertyAccessMode.Field 0 -1 2 -1 -1
+        Annotations: 
+          PropertyAccessMode: Field
+    Service properties: 
+      LazyLoader (no field, ILazyLoader)
+    Keys: 
+      Id PK
+    Foreign keys: 
+      CLoan {'CDetailId'} -> CDetail {'Id'} Unique ToDependent: CLoan ToPrincipal: details
+    Annotations: 
+      ConstructorBinding: Microsoft.EntityFrameworkCore.Metadata.Internal.FactoryMethodConstructorBinding
+      NavigationAccessMode: Field
+      Relational:TableName: CLoans
+Annotations: 
+  Oracle:ValueGenerationStrategy: IdentityColumn
+  ProductVersion: 2.2.4-servicing-10062
+  Relational:MaxIdentifierLength: 128
+2019-05-15 22:58:23.964 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "using lazy-loading proxies "
+2019-05-15 22:58:23.964 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "using lazy-loading proxies "
+2019-05-15 22:58:25.786 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/computer  
+2019-05-15 22:58:25.790 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Computer\"}". Executing action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)"
+2019-05-15 22:58:25.791 +05:30 [Information] Executing action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:58:25.793 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "using lazy-loading proxies "
+2019-05-15 22:58:29.277 +05:30 [Information] 2019-05-15 22:58:29.277115 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.279 +05:30 [Information] 2019-05-15 22:58:29.278969 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.279 +05:30 [Information] 2019-05-15 22:58:29.279834 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.334 +05:30 [Information] 2019-05-15 22:58:29.334536 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:58:29.335 +05:30 [Information] 2019-05-15 22:58:29.334536 ThreadID:9   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:58:29.352 +05:30 [Information] 2019-05-15 22:58:29.352583 ThreadID:5   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:58:29.377 +05:30 [Information] 2019-05-15 22:58:29.377234 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "c"."Id", "c"."Cpu", "c"."DvdType", "c"."Lb_no", "c"."Ram", "c"."make", "c"."sl_no" FROM "CDetails" "c"
+2019-05-15 22:58:29.377 +05:30 [Information] 2019-05-15 22:58:29.377234 ThreadID:5   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-15 22:58:29.378 +05:30 [Information] 2019-05-15 22:58:29.377234 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "c"."Id", "c"."Cpu", "c"."DvdType", "c"."Lb_no", "c"."Ram", "c"."make", "c"."sl_no" FROM "CDetails" "c"
+2019-05-15 22:58:29.589 +05:30 [Information] Executed DbCommand ("199"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"c\".\"Id\", \"c\".\"Cpu\", \"c\".\"DvdType\", \"c\".\"Lb_no\", \"c\".\"Ram\", \"c\".\"make\", \"c\".\"sl_no\"
+FROM \"CDetails\" \"c\""
+2019-05-15 22:58:29.589 +05:30 [Information] Executed DbCommand ("199"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"c\".\"Id\", \"c\".\"Cpu\", \"c\".\"DvdType\", \"c\".\"Lb_no\", \"c\".\"Ram\", \"c\".\"make\", \"c\".\"sl_no\"
+FROM \"CDetails\" \"c\""
+2019-05-15 22:58:29.589 +05:30 [Information] Executed DbCommand ("199"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-15 22:58:29.594 +05:30 [Information] 2019-05-15 22:58:29.594759 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.595 +05:30 [Information] 2019-05-15 22:58:29.594759 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.597 +05:30 [Information] 2019-05-15 22:58:29.594759 ThreadID:5   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.761 +05:30 [Information] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7520.4654ms.
+2019-05-15 22:58:29.831 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:58:29.989 +05:30 [Information] 2019-05-15 22:58:29.989067 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:29.989 +05:30 [Information] 2019-05-15 22:58:29.989109 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:30.000 +05:30 [Information] 2019-05-15 22:58:30.000756 ThreadID:6   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:58:30.001 +05:30 [Information] 2019-05-15 22:58:30.000756 ThreadID:9   (SQL)     OracleQuerySqlGenerator.GenerateLimitOffset() : Limit:null
+2019-05-15 22:58:30.013 +05:30 [Information] 2019-05-15 22:58:30.013895 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.014 +05:30 [Information] 2019-05-15 22:58:30.013895 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.154 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 8478.1991ms
+2019-05-15 22:58:30.161 +05:30 [Information] Request finished in 9290.4715ms 200 application/json; charset=utf-8
+2019-05-15 22:58:30.256 +05:30 [Information] Executed DbCommand ("208"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.256 +05:30 [Information] Executed DbCommand ("208"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.256 +05:30 [Information] 2019-05-15 22:58:30.256327 ThreadID:6   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:30.256 +05:30 [Information] 2019-05-15 22:58:30.256346 ThreadID:9   (ENTRY)   OracleQuerySqlGenerator.ctor() :  OracleSQLCompatibility: 12
+2019-05-15 22:58:30.323 +05:30 [Information] 2019-05-15 22:58:30.323017 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.323 +05:30 [Information] 2019-05-15 22:58:30.323064 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.324 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.324 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.327 +05:30 [Information] 2019-05-15 22:58:30.327177 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.327 +05:30 [Information] 2019-05-15 22:58:30.327151 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.328 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.328 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.330 +05:30 [Information] 2019-05-15 22:58:30.330331 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.330 +05:30 [Information] 2019-05-15 22:58:30.330351 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.331 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.331 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.333 +05:30 [Information] 2019-05-15 22:58:30.333535 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.333 +05:30 [Information] 2019-05-15 22:58:30.333552 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.338 +05:30 [Information] Executed DbCommand ("5"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.338 +05:30 [Information] Executed DbCommand ("5"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.340 +05:30 [Information] 2019-05-15 22:58:30.340474 ThreadID:6   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.340 +05:30 [Information] 2019-05-15 22:58:30.340499 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "e"."Id", "e"."CDetailId", "e"."serNo" FROM "CLoans" "e" WHERE "e"."CDetailId" = :get_Item_0
+2019-05-15 22:58:30.341 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.341 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[":get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='0']"
+""SELECT \"e\".\"Id\", \"e\".\"CDetailId\", \"e\".\"serNo\"
+FROM \"CLoans\" \"e\"
+WHERE \"e\".\"CDetailId\" = :get_Item_0"
+2019-05-15 22:58:30.341 +05:30 [Information] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4549.8637ms.
+2019-05-15 22:58:30.341 +05:30 [Information] Executed action method "EmployeeService.Controllers.ComputerController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8107.7586ms.
+2019-05-15 22:58:30.351 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-05-15 22:58:30.351 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-05-15 22:58:30.357 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 4566.3272ms
+2019-05-15 22:58:30.357 +05:30 [Information] Executed action "EmployeeService.Controllers.ComputerController.Get (EmployeeService)" in 8564.9794ms
+2019-05-15 22:58:30.358 +05:30 [Information] Request finished in 8572.7903ms 200 application/json; charset=utf-8
+2019-05-15 22:58:30.362 +05:30 [Information] Request finished in 4575.8153ms 200 application/json; charset=utf-8
+2019-05-15 22:58:37.881 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:49631/api/values  
+2019-05-15 22:58:37.881 +05:30 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)"
+2019-05-15 22:58:37.882 +05:30 [Information] Executing action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" - Validation state: Valid
+2019-05-15 22:58:37.884 +05:30 [Information] Entity Framework Core "2.2.4-servicing-10062" initialized '"InventoryContext"' using provider '"Oracle.EntityFrameworkCore"' with options: "using lazy-loading proxies "
+2019-05-15 22:58:37.887 +05:30 [Information] 2019-05-15 22:58:37.887030 ThreadID:9   (SQL)     OracleRelationalCommand.Execute() : SELECT "d"."Lb_no" "LogBook", "d"."make" "ItemMake", "d"."sl_no" "SerialNo", "f"."serNo" "loanHolder" FROM "CDetails" "d" INNER JOIN "CLoans" "f" ON "d"."Id" = "f"."CDetailId"
+2019-05-15 22:58:37.888 +05:30 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='0']"
+""SELECT \"d\".\"Lb_no\" \"LogBook\", \"d\".\"make\" \"ItemMake\", \"d\".\"sl_no\" \"SerialNo\", \"f\".\"serNo\" \"loanHolder\"
+FROM \"CDetails\" \"d\"
+INNER JOIN \"CLoans\" \"f\" ON \"d\".\"Id\" = \"f\".\"CDetailId\""
+2019-05-15 22:58:37.888 +05:30 [Information] Executed action method "WebApplication1.Controllers.ValuesController.Get (EmployeeService)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.188ms.
+2019-05-15 22:58:37.889 +05:30 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-05-15 22:58:37.889 +05:30 [Information] Executed action "WebApplication1.Controllers.ValuesController.Get (EmployeeService)" in 7.6235ms
+2019-05-15 22:58:37.890 +05:30 [Information] Request finished in 9.062ms 200 application/json; charset=utf-8
