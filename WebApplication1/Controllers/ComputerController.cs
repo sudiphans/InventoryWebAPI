@@ -9,6 +9,7 @@ using EmployeeService.Models;
 using System.Net;
 using Microsoft.AspNet.OData;
 using Microsoft.EntityFrameworkCore;
+using EmployeeService.Messagebroker;
 
 
 namespace EmployeeService.Controllers
@@ -18,10 +19,12 @@ namespace EmployeeService.Controllers
     public class ComputerController : Controller
     {
         public readonly InventoryContext _db;
+        private RabbitMq _broker;
         //initalizing  database context
-        public ComputerController(InventoryContext db)
+        public ComputerController(InventoryContext db, RabbitMq broker)
         {
             _db = db;
+            _broker = broker;
         }
 
         //getting the computerdetails from this get method
@@ -59,6 +62,11 @@ namespace EmployeeService.Controllers
             //                RamConfig = f.Ram,
             //                loanHolder = d.serNo
             //            }).ToList();
+
+
+            //using message broker to publish a message in rabbitmq server
+
+            _broker.PublishMesssage();
             return Ok(loanHolders);
         }
 

@@ -35,7 +35,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNet.OData.Formatter;
 using Microsoft.Net.Http.Headers;
 using System.IO;
-using Microsoft.EntityFrameworkCore.Proxies;
+using EmployeeService.Messagebroker;
 
 namespace WebApplication1
 {
@@ -113,7 +113,7 @@ namespace WebApplication1
 
             services.AddOData();
            services.AddTransient<CdetailModelBuilder>();
-            services.AddTransient<MailService>();
+            services.AddTransient<RabbitMq>();
 
             //JWT authentication add on for keycloak 
             //refer keycloak auth for more info
