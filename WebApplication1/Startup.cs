@@ -113,7 +113,9 @@ namespace WebApplication1
 
             services.AddOData();
            services.AddTransient<CdetailModelBuilder>();
-            services.AddTransient<RabbitMq>();
+           
+
+           
 
             //JWT authentication add on for keycloak 
             //refer keycloak auth for more info
@@ -177,7 +179,7 @@ namespace WebApplication1
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
-
+            
 
             loggerFactory.AddSerilog();
            

@@ -10,6 +10,9 @@ using System.Net;
 using Microsoft.AspNet.OData;
 using Microsoft.EntityFrameworkCore;
 using EmployeeService.Messagebroker;
+using RabbitMQ.Client;
+using EmployeeService.Global;
+
 
 
 namespace EmployeeService.Controllers
@@ -19,13 +22,18 @@ namespace EmployeeService.Controllers
     public class ComputerController : Controller
     {
         public readonly InventoryContext _db;
-        private RabbitMq _broker;
+        
+        //global connection for rabbitmq client
+        //IModel RabbitMqModel = RabbitMq.CreateChannel();
+      
         //initalizing  database context
-        public ComputerController(InventoryContext db, RabbitMq broker)
+        public ComputerController(InventoryContext db)
         {
             _db = db;
-            _broker = broker;
+            
         }
+
+        
 
         //getting the computerdetails from this get method
         [HttpGet]
@@ -66,8 +74,12 @@ namespace EmployeeService.Controllers
 
             //using message broker to publish a message in rabbitmq server
 
-            _broker.PublishMesssage();
+            // RabbitMq.PublishMesssage("sudip get method called", "demoExchange", "directexchange_key",Globals.username,Globals.password,Globals.virtualHost,Globals.hostname);
+
+            RabbitMqEasy.Publish("hurray sudip easynetq!");
+
             return Ok(loanHolders);
+
         }
 
 

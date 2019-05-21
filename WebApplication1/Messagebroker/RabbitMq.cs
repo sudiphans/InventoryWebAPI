@@ -4,40 +4,67 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
 namespace EmployeeService.Messagebroker
 {
+    // this is the rabitmq implementation without EasyNetQ
+    public static class RabbitMq
+    { 
+        private static IConnection _connection { get; set; }
 
-    public class RabbitMq
-    {
-        public void PublishMesssage()
+        private static object LockObject = new object();
+
+      
+
+
+        private static IConnection GetConnection(string UserName,string Password,string VirtualHost,string HostName)
         {
-            try
-            {
-                ConnectionFactory factory = new ConnectionFactory();
-                factory.UserName = "guest";
-                factory.Password = "guest";
-                factory.VirtualHost = "/";
-                factory.HostName = "localhost";
+            
+                if (_connection == null)
+                {
+                    lock (LockObject)
+                    {
+                    if (_connection == null)
+                    {
+                        ConnectionFactory factory = new ConnectionFactory
+                        {
+                            UserName = UserName,
+                            Password = Password,
+                            VirtualHost = VirtualHost,
+                            HostName = HostName
+                        };
 
-                IConnection conn = factory.CreateConnection();
-                var model = conn.CreateModel();
+                            _connection = factory.CreateConnection();
+
+                           
+                        }
+                    }
+                }
+
+                return _connection;
+           
+           
+        }
+
+        public static void PublishMesssage(string message, string exchangeName , string routingKey, string username,string password,string virtualHost,string hostname)
+        {
+           
+            using (IModel model = GetConnection(username, password, virtualHost, hostname).CreateModel())
+            {
+
                 var properties = model.CreateBasicProperties();
                 properties.Persistent = false;
 
-                byte[] messageBuffer = Encoding.Default.GetBytes("Direct Message");
+                byte[] messageBuffer = Encoding.Default.GetBytes(message);
 
-                model.BasicPublish("demoExchange", "directexchange_key", properties, messageBuffer);
+                model.BasicPublish(exchangeName, routingKey, properties, messageBuffer);
 
-            }catch(Exception ex)
-            {
-                
+
             }
+
 
         }
 
-
-
-
-    }
+     }
 }
